@@ -12,7 +12,7 @@ set in Mr Dafoe (SIL Open Font License, tools/fonts/OFL.txt) with our own swoosh
 import os
 import sys
 
-from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFont
+from PIL import Image, ImageDraw, ImageEnhance, ImageFont
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from art_convert import fb_bytes  # noqa: E402
