@@ -1,0 +1,53 @@
+press start at 3000 ms for 400 ms
+press y at 3150 ms for 200 ms
+        0 ms  video_open clip009.h264 (245 frames)
+        0 ms  audio_play clip009.wav
+          seek 97 -> 248: 7 fields black
+     3293 ms  video_open intro_skip.h264 (103 frames)
+     3293 ms  audio_play intro_skip_3.wav
+          seek 351 -> 5319: 12 fields black
+     6903 ms  video_open clip024.h264 (162 frames)
+     6903 ms  audio_play clip024.wav
+          seek 5481 -> 5319: 7 fields black
+    12385 ms  video_open clip025.h264 (162 frames)
+    12385 ms  audio_play clip025.wav
+          seek 5481 -> 820: 12 fields black
+    17951 ms  video_open clip026.h264 (324 frames)
+    17951 ms  audio_play clip026.wav
+          seek 1144 -> 2753: 10 fields black
+    28899 ms  video_open clip027.h264 (58 frames)
+    28899 ms  audio_play clip027.wav
+    30783 ms  video_open clip028.h264 (235 frames)
+    30783 ms  audio_play clip028.wav
+    35095 ms  tone 475 Hz x6
+          seek 3009 -> 2815: 7 fields black
+    35200 ms  video_open clip029.h264 (63 frames)
+    35200 ms  audio_play clip029.wav
+    37284 ms  video_open spec19.h264 (115 frames)
+    37284 ms  audio_play spec19_1.wav
+    41116 ms  video_open clip032.h264 (235 frames)
+    41116 ms  audio_play clip032.wav
+    45424 ms  tone 475 Hz x6
+          seek 3009 -> 2815: 7 fields black
+    45529 ms  video_open clip033.h264 (63 frames)
+    45529 ms  audio_play clip033.wav
+          seek 2878 -> 3415: 9 fields black
+    47752 ms  video_open clip054.h264 (320 frames)
+    47752 ms  audio_play clip054.wav
+    51307 ms  tone 475 Hz x6
+          seek 3522 -> 3304: 7 fields black
+    51412 ms  video_open clip056.h264 (110 frames)
+    51412 ms  audio_play clip056.wav
+    55068 ms  video_open spec19.h264 (115 frames)
+    55068 ms  audio_play spec19_1.wav
+    58900 ms  video_open clip054.h264 (320 frames)
+    58900 ms  audio_play clip054.wav
+    62456 ms  tone 475 Hz x6
+          seek 3522 -> 3304: 7 fields black
+    62561 ms  video_open clip056.h264 (110 frames)
+    62561 ms  audio_play clip056.wav
+    66216 ms  video_open spec19.h264 (115 frames)
+    66216 ms  audio_play spec19_1.wav
+    70048 ms  video_open gameover.h264 (168 frames)
+    70048 ms  audio_play gameover_1.wav
+    75626 ms  exit

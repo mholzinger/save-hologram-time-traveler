@@ -1,0 +1,173 @@
+{
+ "source": "ROM DCF8A (DGROUP 01EB:117A), read by D47D:1D6C",
+ "records": [
+  {
+   "key": 1,
+   "audio_mask": 1,
+   "start": 352,
+   "stop": 516
+  },
+  {
+   "key": 2,
+   "audio_mask": 2,
+   "start": 352,
+   "stop": 516
+  },
+  {
+   "key": 3,
+   "audio_mask": 1,
+   "start": 5238,
+   "stop": 5319
+  },
+  {
+   "key": 4,
+   "audio_mask": 2,
+   "start": 5238,
+   "stop": 5319
+  },
+  {
+   "key": 5,
+   "audio_mask": 1,
+   "start": 51347,
+   "stop": 51428
+  },
+  {
+   "key": 6,
+   "audio_mask": 2,
+   "start": 51347,
+   "stop": 51428
+  },
+  {
+   "key": 7,
+   "audio_mask": 1,
+   "start": 39993,
+   "stop": 40157
+  },
+  {
+   "key": 8,
+   "audio_mask": 2,
+   "start": 39993,
+   "stop": 40157
+  },
+  {
+   "key": 9,
+   "audio_mask": 1,
+   "start": 40159,
+   "stop": 40239
+  },
+  {
+   "key": 10,
+   "audio_mask": 2,
+   "start": 40159,
+   "stop": 40239
+  },
+  {
+   "key": 11,
+   "audio_mask": 1,
+   "start": 40241,
+   "stop": 40321
+  },
+  {
+   "key": 12,
+   "audio_mask": 2,
+   "start": 40241,
+   "stop": 40321
+  },
+  {
+   "key": 13,
+   "audio_mask": 1,
+   "start": 42502,
+   "stop": 42615
+  },
+  {
+   "key": 14,
+   "audio_mask": 2,
+   "start": 42502,
+   "stop": 42615
+  },
+  {
+   "key": 15,
+   "audio_mask": 1,
+   "start": 11271,
+   "stop": 11336
+  },
+  {
+   "key": 16,
+   "audio_mask": 2,
+   "start": 11271,
+   "stop": 11336
+  },
+  {
+   "key": 17,
+   "audio_mask": 1,
+   "start": 25889,
+   "stop": 25970
+  },
+  {
+   "key": 18,
+   "audio_mask": 2,
+   "start": 25889,
+   "stop": 25970
+  },
+  {
+   "key": 19,
+   "audio_mask": 1,
+   "start": 5480,
+   "stop": 5594
+  },
+  {
+   "key": 20,
+   "audio_mask": 2,
+   "start": 5480,
+   "stop": 5594
+  },
+  {
+   "key": 21,
+   "audio_mask": 1,
+   "start": 1143,
+   "stop": 1257
+  },
+  {
+   "key": 22,
+   "audio_mask": 2,
+   "start": 1143,
+   "stop": 1257
+  },
+  {
+   "key": 23,
+   "audio_mask": 1,
+   "start": 5594,
+   "stop": 5708
+  },
+  {
+   "key": 24,
+   "audio_mask": 2,
+   "start": 5594,
+   "stop": 5708
+  },
+  {
+   "key": 25,
+   "audio_mask": 1,
+   "start": 25970,
+   "stop": 26051
+  },
+  {
+   "key": 26,
+   "audio_mask": 2,
+   "start": 25970,
+   "stop": 26051
+  },
+  {
+   "key": 27,
+   "audio_mask": 1,
+   "start": 51234,
+   "stop": 51347
+  },
+  {
+   "key": 28,
+   "audio_mask": 2,
+   "start": 51234,
+   "stop": 51347
+  }
+ ]
+}

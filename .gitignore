@@ -1,0 +1,50 @@
+# Copyrighted inputs never go in git
+rom/*.bin
+rom/*.zip
+*.chd
+# video/: only the README is tracked; all media, game builds, images, zips stay local
+video/*
+!video/README.md
+*.iso
+*.vob
+*.VOB
+*.mkv
+*.mp4
+
+# Generated
+build/
+port/3ds/build/
+port/3ds/*.3dsx
+port/3ds/*.smdh
+port/3ds/*.elf
+port/3ds/romfs/video/
+
+# Ghidra
+*.gpr
+*.rep/
+*.lock
+*.lock~
+
+# Python / OS
+__pycache__/
+*.pyc
+.venv
+.DS_Store
+
+# superseded pass-1 files awaiting manual delete
+_to_delete/
+
+# third-party manuals and scans (local reference only)
+docs/reference/
+
+# host test binaries
+port/3ds/host/test_engine
+port/3ds/host/test_2p
+port/3ds/host/test_led
+port/3ds/host/test_ledmsg
+port/3ds/host/test_frontend
+port/3ds/host/*.dSYM/
+
+# Machine-specific make settings, and local reference images (third-party photos never go in git)
+local.mk
+images/

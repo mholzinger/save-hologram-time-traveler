@@ -1,0 +1,97 @@
+press right at 2000 ms for 120 ms
+press up at 9000 ms for 120 ms
+press a at 20000 ms for 120 ms
+press down at 40000 ms for 120 ms
+        0 ms  video_open clip009.h264 (245 frames)
+        0 ms  audio_play clip009.wav
+     2018 ms  tone 1250 Hz x1
+          seek 62 -> 5319: 12 fields black
+     2206 ms  video_open clip024.h264 (162 frames)
+     2206 ms  audio_play clip024.wav
+          seek 5481 -> 5319: 7 fields black
+     7688 ms  video_open clip025.h264 (162 frames)
+     7688 ms  audio_play clip025.wav
+          seek 5481 -> 820: 12 fields black
+    13254 ms  video_open clip026.h264 (324 frames)
+    13254 ms  audio_play clip026.wav
+    20035 ms  tone 1250 Hz x1
+          seek 1024 -> 2753: 10 fields black
+    20191 ms  video_open clip027.h264 (58 frames)
+    20191 ms  audio_play clip027.wav
+    22075 ms  video_open clip028.h264 (235 frames)
+    22075 ms  audio_play clip028.wav
+    26387 ms  tone 475 Hz x6
+          seek 3009 -> 2815: 7 fields black
+    26492 ms  video_open clip029.h264 (63 frames)
+    26492 ms  audio_play clip029.wav
+    28576 ms  video_open spec19.h264 (115 frames)
+    28576 ms  audio_play spec19_1.wav
+    32408 ms  video_open clip032.h264 (235 frames)
+    32408 ms  audio_play clip032.wav
+    36733 ms  tone 475 Hz x6
+          seek 3009 -> 2815: 7 fields black
+    36838 ms  video_open clip033.h264 (63 frames)
+    36838 ms  audio_play clip033.wav
+          seek 2878 -> 5238: 11 fields black
+    39094 ms  video_open clip036.h264 (82 frames)
+    39094 ms  audio_play clip036.wav
+          seek 5319 -> 1: 12 fields black
+    41969 ms  video_open clip037.h264 (245 frames)
+    41969 ms  audio_play clip037.wav
+          seek 246 -> 518: 8 fields black
+    50242 ms  video_open clip038.h264 (170 frames)
+    50242 ms  audio_play clip038.wav
+          seek 687 -> 1265: 9 fields black
+    55992 ms  video_open clip039.h264 (492 frames)
+    55992 ms  audio_play clip039.wav
+    66383 ms  tone 475 Hz x6
+          seek 1577 -> 30123: 14 fields black
+    66605 ms  video_open clip040.h264 (157 frames)
+    66605 ms  audio_play clip040.wav
+          seek 30280 -> 1757: 14 fields black
+    72037 ms  video_open clip042.h264 (438 frames)
+    72037 ms  audio_play clip042.wav
+    81827 ms  tone 475 Hz x6
+          seek 2051 -> 17754: 13 fields black
+    82032 ms  video_open clip043.h264 (97 frames)
+    82032 ms  audio_play clip043.wav
+          seek 17851 -> 2195: 13 fields black
+    85459 ms  video_open clip045.h264 (384 frames)
+    85459 ms  audio_play clip045.wav
+    93845 ms  tone 475 Hz x6
+          seek 2447 -> 45479: 15 fields black
+    94083 ms  video_open clip046.h264 (70 frames)
+    94083 ms  audio_play clip046.wav
+          seek 45549 -> 2579: 15 fields black
+    96640 ms  video_open clip048.h264 (149 frames)
+    96640 ms  audio_play clip048.wav
+          seek 2727 -> 247: 11 fields black
+   101722 ms  video_open clip049.h264 (104 frames)
+   101722 ms  audio_play clip049.wav
+          seek 351 -> 2879: 11 fields black
+   105348 ms  video_open clip050.h264 (235 frames)
+   105348 ms  audio_play clip050.wav
+   109673 ms  tone 475 Hz x6
+          seek 3009 -> 2815: 7 fields black
+   109778 ms  video_open clip051.h264 (63 frames)
+   109778 ms  audio_play clip051.wav
+          seek 2878 -> 3415: 9 fields black
+   112001 ms  video_open clip054.h264 (320 frames)
+   112001 ms  audio_play clip054.wav
+   115556 ms  tone 475 Hz x6
+          seek 3522 -> 3304: 7 fields black
+   115661 ms  video_open clip056.h264 (110 frames)
+   115661 ms  audio_play clip056.wav
+   119317 ms  video_open spec19.h264 (115 frames)
+   119317 ms  audio_play spec19_1.wav
+   123149 ms  video_open clip062.h264 (262 frames)
+   123149 ms  audio_play clip062.wav
+   127791 ms  tone 475 Hz x6
+          seek 4929 -> 5056: 6 fields black
+   127879 ms  video_open clip064.h264 (89 frames)
+   127879 ms  audio_play clip064.wav
+   130833 ms  video_open spec25.h264 (82 frames)
+   130833 ms  audio_play spec25_2.wav
+   133562 ms  video_open gameover.h264 (168 frames)
+   133562 ms  audio_play gameover_2.wav
+   139140 ms  exit

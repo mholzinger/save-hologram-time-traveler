@@ -1,0 +1,12 @@
+# Python tooling for tools/ and re/ (the scripts are run directly, not installed). Run: make format
+[tool.ruff]
+line-length = 120
+target-version = "py313"
+extend-exclude = ["build", "video", "rom", "docs/reference"]
+
+[tool.ruff.format]
+quote-style = "preserve"
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+ignore = ["E501", "E731", "E741", "E402"]

@@ -1,0 +1,881 @@
+{
+ "source": "ROM CCC8A (C52E:79AA), 8-byte move rows {move_id, mode, device, bits}, matcher CE55:03CC",
+ "records": [
+  {
+   "move_id": 1,
+   "mode": 1,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 2,
+   "mode": 1,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 3,
+   "mode": 1,
+   "device": 1,
+   "bits": 4
+  },
+  {
+   "move_id": 4,
+   "mode": 1,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 5,
+   "mode": 1,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 6,
+   "mode": 1,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 7,
+   "mode": 3,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 7,
+   "mode": 3,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 8,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 8,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 8,
+   "mode": 2,
+   "device": 1,
+   "bits": 4
+  },
+  {
+   "move_id": 8,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 8,
+   "mode": 2,
+   "device": 1,
+   "bits": 256
+  },
+  {
+   "move_id": 8,
+   "mode": 2,
+   "device": 1,
+   "bits": 512
+  },
+  {
+   "move_id": 9,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 9,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 10,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 10,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 10,
+   "mode": 2,
+   "device": 1,
+   "bits": 4
+  },
+  {
+   "move_id": 10,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 11,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 11,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 11,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 11,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 11,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 12,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 12,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 12,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 12,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 13,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 13,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 13,
+   "mode": 2,
+   "device": 1,
+   "bits": 4
+  },
+  {
+   "move_id": 13,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 13,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 14,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 14,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 14,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 14,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 14,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 15,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 15,
+   "mode": 2,
+   "device": 1,
+   "bits": 4
+  },
+  {
+   "move_id": 15,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 15,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 16,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 16,
+   "mode": 2,
+   "device": 1,
+   "bits": 4
+  },
+  {
+   "move_id": 16,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 16,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 16,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 17,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 17,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 17,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 17,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 18,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 18,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 18,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 18,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 18,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 19,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 19,
+   "mode": 2,
+   "device": 1,
+   "bits": 4
+  },
+  {
+   "move_id": 19,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 19,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 19,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 20,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 20,
+   "mode": 2,
+   "device": 1,
+   "bits": 4
+  },
+  {
+   "move_id": 20,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 20,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 21,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 21,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 22,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 22,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 22,
+   "mode": 2,
+   "device": 1,
+   "bits": 4
+  },
+  {
+   "move_id": 22,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 22,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 22,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 23,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 23,
+   "mode": 2,
+   "device": 1,
+   "bits": 4
+  },
+  {
+   "move_id": 24,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 24,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 24,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 24,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 25,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 25,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 25,
+   "mode": 2,
+   "device": 1,
+   "bits": 4
+  },
+  {
+   "move_id": 26,
+   "mode": 2,
+   "device": 1,
+   "bits": 4
+  },
+  {
+   "move_id": 26,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 26,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 27,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 27,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 28,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 28,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 28,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 29,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 29,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 29,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 30,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 30,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 30,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 31,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 31,
+   "mode": 2,
+   "device": 1,
+   "bits": 4
+  },
+  {
+   "move_id": 31,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 32,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 32,
+   "mode": 2,
+   "device": 1,
+   "bits": 4
+  },
+  {
+   "move_id": 32,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 33,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 33,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 34,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 34,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 35,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 35,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 35,
+   "mode": 2,
+   "device": 1,
+   "bits": 256
+  },
+  {
+   "move_id": 35,
+   "mode": 2,
+   "device": 1,
+   "bits": 512
+  },
+  {
+   "move_id": 36,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 36,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 36,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 37,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 37,
+   "mode": 2,
+   "device": 1,
+   "bits": 4
+  },
+  {
+   "move_id": 38,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 38,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 38,
+   "mode": 2,
+   "device": 1,
+   "bits": 4
+  },
+  {
+   "move_id": 38,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 38,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 39,
+   "mode": 2,
+   "device": 1,
+   "bits": 4
+  },
+  {
+   "move_id": 39,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 40,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 40,
+   "mode": 2,
+   "device": 1,
+   "bits": 4
+  },
+  {
+   "move_id": 40,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 41,
+   "mode": 1,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 42,
+   "mode": 2,
+   "device": 32,
+   "bits": 16
+  },
+  {
+   "move_id": 42,
+   "mode": 2,
+   "device": 32,
+   "bits": 32
+  },
+  {
+   "move_id": 43,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 43,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 44,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 44,
+   "mode": 2,
+   "device": 1,
+   "bits": 2
+  },
+  {
+   "move_id": 44,
+   "mode": 2,
+   "device": 1,
+   "bits": 4
+  },
+  {
+   "move_id": 45,
+   "mode": 2,
+   "device": 1,
+   "bits": 4
+  },
+  {
+   "move_id": 45,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 45,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 45,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 46,
+   "mode": 2,
+   "device": 1,
+   "bits": 1
+  },
+  {
+   "move_id": 46,
+   "mode": 2,
+   "device": 1,
+   "bits": 8
+  },
+  {
+   "move_id": 46,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 46,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  },
+  {
+   "move_id": 47,
+   "mode": 2,
+   "device": 32,
+   "bits": 16
+  },
+  {
+   "move_id": 47,
+   "mode": 2,
+   "device": 32,
+   "bits": 32
+  },
+  {
+   "move_id": 47,
+   "mode": 2,
+   "device": 16,
+   "bits": 256
+  },
+  {
+   "move_id": 47,
+   "mode": 2,
+   "device": 16,
+   "bits": 512
+  }
+ ]
+}

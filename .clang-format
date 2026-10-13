@@ -1,0 +1,29 @@
+# C style for port/3ds (the 3DS front end, the portable engine, the host tests). Run: make format
+# Matches the code as written: 4-space indent, 120 columns, function braces on their own line, short
+# guards and loops kept on one line, comments left as written.
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 120
+BreakBeforeBraces: Linux
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortLoopsOnASingleLine: true
+AllowShortBlocksOnASingleLine: Always
+AllowShortFunctionsOnASingleLine: All
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortEnumsOnASingleLine: true
+IndentCaseLabels: false
+PointerAlignment: Right
+SortIncludes: Never
+IncludeBlocks: Preserve
+ReflowComments: false
+AlignTrailingComments:
+  Kind: Leave
+AlignConsecutiveMacros: false
+AlignOperands: DontAlign
+AlignAfterOpenBracket: Align
+BinPackArguments: true
+BinPackParameters: true
+SpacesBeforeTrailingComments: 1
+MaxEmptyLinesToKeep: 1
+InsertNewlineAtEOF: true
+AlignEscapedNewlines: DontAlign

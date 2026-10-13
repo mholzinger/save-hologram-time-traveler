@@ -1,0 +1,7475 @@
+{
+ "source": "video/HTT/tt/httNN.txt + *.hot (PC version), parsed by tools/parse_pc_tables.py",
+ "scenes": {
+  "1": {
+   "file": "htt01.txt",
+   "main_clip": "htt201.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 60,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 1
+      },
+      {
+       "death": 1,
+       "scene": 1
+      },
+      {
+       "death": 1,
+       "scene": 1
+      },
+      {
+       "death": 1,
+       "scene": 1
+      },
+      {
+       "death": 1,
+       "scene": 1
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 97,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 1
+      },
+      {
+       "death": 3,
+       "scene": 1
+      },
+      {
+       "death": 3,
+       "scene": 1
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 3,
+       "scene": 1
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "2": {
+   "file": "htt02.txt",
+   "main_clip": "htt202.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 50,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 2
+      },
+      {
+       "death": 1,
+       "scene": 2
+      },
+      {
+       "death": 1,
+       "scene": 2
+      },
+      {
+       "death": 1,
+       "scene": 2
+      },
+      {
+       "death": 1,
+       "scene": 2
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 59,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 2
+      },
+      {
+       "death": 1,
+       "scene": 2
+      },
+      {
+       "death": 1,
+       "scene": 2
+      },
+      {
+       "death": 1,
+       "scene": 2
+      },
+      {
+       "death": 1,
+       "scene": 2
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 124,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 2
+      },
+      {
+       "death": 2,
+       "scene": 2
+      },
+      {
+       "death": 2,
+       "scene": 2
+      },
+      {
+       "death": 2,
+       "scene": 2
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "3": {
+   "file": "htt03.txt",
+   "main_clip": "htt203.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 70,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 3
+      },
+      {
+       "death": 1,
+       "scene": 3
+      },
+      {
+       "death": 1,
+       "scene": 3
+      },
+      {
+       "death": 1,
+       "scene": 3
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "4": {
+   "file": "htt04.TXT",
+   "main_clip": "htt204.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 75,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 4
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 4
+      },
+      {
+       "death": 1,
+       "scene": 4
+      },
+      {
+       "death": 1,
+       "scene": 4
+      },
+      {
+       "death": 1,
+       "scene": 4
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 163,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 4
+      },
+      {
+       "death": 2,
+       "scene": 4
+      },
+      {
+       "death": 2,
+       "scene": 4
+      },
+      {
+       "death": 2,
+       "scene": 4
+      },
+      {
+       "death": 2,
+       "scene": 4
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "5": {
+   "file": "htt05.txt",
+   "main_clip": "htt205.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 68,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 5
+      },
+      {
+       "death": 1,
+       "scene": 5
+      },
+      {
+       "death": 1,
+       "scene": 5
+      },
+      {
+       "death": 1,
+       "scene": 5
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 88,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 5
+      },
+      {
+       "death": 2,
+       "scene": 5
+      },
+      {
+       "death": 2,
+       "scene": 5
+      },
+      {
+       "death": 2,
+       "scene": 5
+      },
+      {
+       "death": 2,
+       "scene": 5
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "6": {
+   "file": "htt06.TXT",
+   "main_clip": "htt206.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 124,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 6
+      },
+      {
+       "death": 1,
+       "scene": 6
+      },
+      {
+       "death": 1,
+       "scene": 6
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 6
+      },
+      {
+       "death": 1,
+       "scene": 6
+      }
+     ]
+    }
+   ]
+  },
+  "7": {
+   "file": "htt07.TXT",
+   "main_clip": "htt207.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 64,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 7
+      },
+      {
+       "death": 1,
+       "scene": 7
+      },
+      {
+       "death": 1,
+       "scene": 7
+      },
+      {
+       "death": 1,
+       "scene": 7
+      },
+      {
+       "death": 1,
+       "scene": 7
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 96,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 7
+      },
+      {
+       "death": 2,
+       "scene": 7
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 7
+      },
+      {
+       "death": 2,
+       "scene": 7
+      },
+      {
+       "death": 2,
+       "scene": 7
+      }
+     ]
+    }
+   ]
+  },
+  "8": {
+   "file": "htt08.txt",
+   "main_clip": "htt208.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 64,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 8
+      },
+      {
+       "death": 1,
+       "scene": 8
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 8
+      },
+      {
+       "death": 1,
+       "scene": 8
+      },
+      {
+       "death": 1,
+       "scene": 8
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 150,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 8
+      },
+      {
+       "death": 2,
+       "scene": 8
+      },
+      {
+       "death": 2,
+       "scene": 8
+      },
+      {
+       "death": 2,
+       "scene": 8
+      },
+      {
+       "death": 2,
+       "scene": 8
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 252,
+     "b": 0,
+     "c": [
+      {
+       "death": 4,
+       "scene": 8
+      },
+      {
+       "death": 4,
+       "scene": 8
+      },
+      {
+       "death": 4,
+       "scene": 8
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 4,
+       "scene": 8
+      },
+      {
+       "death": 4,
+       "scene": 8
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 295,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 8
+      },
+      {
+       "death": 3,
+       "scene": 8
+      },
+      {
+       "death": 3,
+       "scene": 8
+      },
+      {
+       "death": 3,
+       "scene": 8
+      },
+      {
+       "death": 3,
+       "scene": 8
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "9": {
+   "file": "htt09.txt",
+   "main_clip": "htt209.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 95,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 9
+      },
+      {
+       "death": 1,
+       "scene": 9
+      },
+      {
+       "death": 1,
+       "scene": 9
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 9
+      },
+      {
+       "death": 1,
+       "scene": 9
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 165,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 9
+      },
+      {
+       "death": 2,
+       "scene": 9
+      },
+      {
+       "death": 2,
+       "scene": 9
+      },
+      {
+       "death": 2,
+       "scene": 9
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 9
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 221,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 9
+      },
+      {
+       "death": 1,
+       "scene": 9
+      },
+      {
+       "death": 1,
+       "scene": 9
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 9
+      },
+      {
+       "death": 1,
+       "scene": 9
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 272,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 9
+      },
+      {
+       "death": 1,
+       "scene": 9
+      },
+      {
+       "death": 1,
+       "scene": 9
+      },
+      {
+       "death": 1,
+       "scene": 9
+      },
+      {
+       "death": 1,
+       "scene": 9
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "10": {
+   "file": "htt10.txt",
+   "main_clip": "htt210.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 48,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 10
+      },
+      {
+       "death": 1,
+       "scene": 10
+      },
+      {
+       "death": 1,
+       "scene": 10
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 10
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "11": {
+   "file": "htt11.txt",
+   "main_clip": "htt211.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 206,
+     "b": 0,
+     "c": [
+      {
+       "death": 4,
+       "scene": 11
+      },
+      {
+       "death": 4,
+       "scene": 11
+      },
+      {
+       "death": 4,
+       "scene": 11
+      },
+      {
+       "death": 4,
+       "scene": 11
+      },
+      {
+       "death": 4,
+       "scene": 11
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 222,
+     "b": 0,
+     "c": [
+      {
+       "death": 4,
+       "scene": 11
+      },
+      {
+       "death": 4,
+       "scene": 11
+      },
+      {
+       "death": 4,
+       "scene": 11
+      },
+      {
+       "death": 4,
+       "scene": 11
+      },
+      {
+       "death": 4,
+       "scene": 11
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 231,
+     "b": 0,
+     "c": [
+      {
+       "death": 4,
+       "scene": 11
+      },
+      {
+       "death": 4,
+       "scene": 11
+      },
+      {
+       "death": 4,
+       "scene": 11
+      },
+      {
+       "death": 4,
+       "scene": 11
+      },
+      {
+       "death": 4,
+       "scene": 11
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 257,
+     "b": 0,
+     "c": [
+      {
+       "death": 5,
+       "scene": 11
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 5,
+       "scene": 11
+      },
+      {
+       "death": 5,
+       "scene": 11
+      },
+      {
+       "death": 5,
+       "scene": 11
+      },
+      {
+       "death": 5,
+       "scene": 11
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 296,
+     "b": 0,
+     "c": [
+      {
+       "death": 6,
+       "scene": 11
+      },
+      {
+       "death": 6,
+       "scene": 11
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 6,
+       "scene": 11
+      },
+      {
+       "death": 6,
+       "scene": 11
+      },
+      {
+       "death": 6,
+       "scene": 11
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 331,
+     "b": 0,
+     "c": [
+      {
+       "death": 7,
+       "scene": 11
+      },
+      {
+       "death": 7,
+       "scene": 11
+      },
+      {
+       "death": 7,
+       "scene": 11
+      },
+      {
+       "death": 7,
+       "scene": 11
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 7,
+       "scene": 11
+      }
+     ]
+    }
+   ]
+  },
+  "12": {
+   "file": "htt12.TXT",
+   "main_clip": "htt212.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 70,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 12
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 4,
+       "scene": 12
+      },
+      {
+       "death": 3,
+       "scene": 12
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 106,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 12
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 4,
+       "scene": 12
+      },
+      {
+       "death": 1,
+       "scene": 12
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 125,
+     "b": 0,
+     "c": [
+      {
+       "death": 4,
+       "scene": 12
+      },
+      {
+       "death": 2,
+       "scene": 12
+      },
+      {
+       "death": 4,
+       "scene": 12
+      },
+      {
+       "death": 4,
+       "scene": 12
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 4,
+       "scene": 12
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 237,
+     "b": 0,
+     "c": [
+      {
+       "death": 5,
+       "scene": 12
+      },
+      {
+       "death": 5,
+       "scene": 12
+      },
+      {
+       "death": 5,
+       "scene": 12
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 5,
+       "scene": 12
+      },
+      {
+       "death": 5,
+       "scene": 12
+      }
+     ]
+    }
+   ]
+  },
+  "13": {
+   "file": "htt13.txt",
+   "main_clip": "htt213.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 21,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 13
+      },
+      {
+       "death": 1,
+       "scene": 13
+      },
+      {
+       "death": 1,
+       "scene": 13
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 13
+      },
+      {
+       "death": 1,
+       "scene": 13
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 106,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 13
+      },
+      {
+       "death": 2,
+       "scene": 13
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 13
+      },
+      {
+       "death": 2,
+       "scene": 13
+      },
+      {
+       "death": 2,
+       "scene": 13
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 123,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 13
+      },
+      {
+       "death": 2,
+       "scene": 13
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 13
+      },
+      {
+       "death": 2,
+       "scene": 13
+      },
+      {
+       "death": 2,
+       "scene": 13
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 161,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 13
+      },
+      {
+       "death": 3,
+       "scene": 13
+      },
+      {
+       "death": 3,
+       "scene": 13
+      },
+      {
+       "death": 3,
+       "scene": 13
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "14": {
+   "file": "htt14.txt",
+   "main_clip": "htt214.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 50,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 14
+      },
+      {
+       "death": 2,
+       "scene": 14
+      },
+      {
+       "death": 2,
+       "scene": 14
+      },
+      {
+       "death": 1,
+       "scene": 14
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 14
+      }
+     ]
+    }
+   ]
+  },
+  "15": {
+   "file": "htt15.txt",
+   "main_clip": "htt215.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 65,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 15
+      },
+      {
+       "death": 1,
+       "scene": 15
+      },
+      {
+       "death": 1,
+       "scene": 15
+      },
+      {
+       "death": 1,
+       "scene": 15
+      },
+      {
+       "death": 1,
+       "scene": 15
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 90,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 15
+      },
+      {
+       "death": 1,
+       "scene": 15
+      },
+      {
+       "death": 1,
+       "scene": 15
+      },
+      {
+       "death": 1,
+       "scene": 15
+      },
+      {
+       "death": 1,
+       "scene": 15
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 114,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 15
+      },
+      {
+       "death": 1,
+       "scene": 15
+      },
+      {
+       "death": 1,
+       "scene": 15
+      },
+      {
+       "death": 1,
+       "scene": 15
+      },
+      {
+       "death": 1,
+       "scene": 15
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 137,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 15
+      },
+      {
+       "death": 1,
+       "scene": 15
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 15
+      },
+      {
+       "death": 1,
+       "scene": 15
+      },
+      {
+       "death": 1,
+       "scene": 15
+      }
+     ]
+    }
+   ]
+  },
+  "16": {
+   "file": "htt16.txt",
+   "main_clip": "htt216.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 51,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 16
+      },
+      {
+       "death": 1,
+       "scene": 16
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 16
+      },
+      {
+       "death": 1,
+       "scene": 16
+      },
+      {
+       "death": 1,
+       "scene": 16
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 65,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 16
+      },
+      {
+       "death": 1,
+       "scene": 16
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 16
+      },
+      {
+       "death": 1,
+       "scene": 16
+      },
+      {
+       "death": 1,
+       "scene": 16
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 93,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 16
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 16
+      },
+      {
+       "death": 1,
+       "scene": 16
+      },
+      {
+       "death": 1,
+       "scene": 16
+      },
+      {
+       "death": 1,
+       "scene": 16
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 110,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 16
+      },
+      {
+       "death": 1,
+       "scene": 16
+      },
+      {
+       "death": 1,
+       "scene": 16
+      },
+      {
+       "death": 1,
+       "scene": 16
+      },
+      {
+       "death": 1,
+       "scene": 16
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "17": {
+   "file": "htt17.TXT",
+   "main_clip": "htt217.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 73,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 17
+      },
+      {
+       "death": 1,
+       "scene": 17
+      },
+      {
+       "death": 1,
+       "scene": 17
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 17
+      },
+      {
+       "death": 1,
+       "scene": 17
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 120,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 17
+      },
+      {
+       "death": 1,
+       "scene": 17
+      },
+      {
+       "death": 1,
+       "scene": 17
+      },
+      {
+       "death": 1,
+       "scene": 17
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 17
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 146,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 17
+      },
+      {
+       "death": 1,
+       "scene": 17
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 17
+      },
+      {
+       "death": 1,
+       "scene": 17
+      },
+      {
+       "death": 1,
+       "scene": 17
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 162,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 17
+      },
+      {
+       "death": 1,
+       "scene": 17
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 17
+      },
+      {
+       "death": 1,
+       "scene": 17
+      },
+      {
+       "death": 1,
+       "scene": 17
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 186,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 17
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 17
+      },
+      {
+       "death": 1,
+       "scene": 17
+      },
+      {
+       "death": 1,
+       "scene": 17
+      },
+      {
+       "death": 1,
+       "scene": 17
+      }
+     ]
+    }
+   ]
+  },
+  "18": {
+   "file": "htt18.TXT",
+   "main_clip": "htt218.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 75,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 18
+      },
+      {
+       "death": 1,
+       "scene": 18
+      },
+      {
+       "death": 1,
+       "scene": 18
+      },
+      {
+       "death": 1,
+       "scene": 18
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 18
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 120,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 18
+      },
+      {
+       "death": 1,
+       "scene": 18
+      },
+      {
+       "death": 1,
+       "scene": 18
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 18
+      },
+      {
+       "death": 1,
+       "scene": 18
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 148,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 18
+      },
+      {
+       "death": 1,
+       "scene": 18
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 18
+      },
+      {
+       "death": 1,
+       "scene": 18
+      },
+      {
+       "death": 1,
+       "scene": 18
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 165,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 18
+      },
+      {
+       "death": 1,
+       "scene": 18
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 18
+      },
+      {
+       "death": 1,
+       "scene": 18
+      },
+      {
+       "death": 1,
+       "scene": 18
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 186,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 18
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 18
+      },
+      {
+       "death": 1,
+       "scene": 18
+      },
+      {
+       "death": 1,
+       "scene": 18
+      },
+      {
+       "death": 1,
+       "scene": 18
+      }
+     ]
+    }
+   ]
+  },
+  "19": {
+   "file": "htt19.txt",
+   "main_clip": "htt219.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 53,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 19
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 19
+      },
+      {
+       "death": 2,
+       "scene": 19
+      },
+      {
+       "death": 2,
+       "scene": 19
+      },
+      {
+       "death": 1,
+       "scene": 19
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 87,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 19
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 19
+      },
+      {
+       "death": 2,
+       "scene": 19
+      },
+      {
+       "death": 2,
+       "scene": 19
+      },
+      {
+       "death": 1,
+       "scene": 19
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 108,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 19
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 19
+      },
+      {
+       "death": 2,
+       "scene": 19
+      },
+      {
+       "death": 2,
+       "scene": 19
+      },
+      {
+       "death": 1,
+       "scene": 19
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 149,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 19
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 3,
+       "scene": 19
+      },
+      {
+       "death": 3,
+       "scene": 19
+      },
+      {
+       "death": 3,
+       "scene": 19
+      },
+      {
+       "death": 3,
+       "scene": 19
+      }
+     ]
+    }
+   ]
+  },
+  "20": {
+   "file": "htt20.txt",
+   "main_clip": "htt220.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 62,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 20
+      },
+      {
+       "death": 1,
+       "scene": 20
+      },
+      {
+       "death": 1,
+       "scene": 20
+      },
+      {
+       "death": 1,
+       "scene": 20
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 20
+      }
+     ]
+    }
+   ]
+  },
+  "21": {
+   "file": "htt21.txt",
+   "main_clip": "htt221.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 35,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "death": 1,
+       "scene": 21
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 66,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 21
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 100,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 21
+      },
+      {
+       "death": 3,
+       "scene": 21
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 3,
+       "scene": 21
+      },
+      {
+       "death": 3,
+       "scene": 21
+      },
+      {
+       "death": 3,
+       "scene": 21
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 121,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 21
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 162,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 21
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 21
+      },
+      {
+       "death": 2,
+       "scene": 21
+      },
+      {
+       "death": 2,
+       "scene": 21
+      },
+      {
+       "death": 2,
+       "scene": 21
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 190,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "death": 1,
+       "scene": 21
+      }
+     ]
+    }
+   ]
+  },
+  "22": {
+   "file": "htt22.txt",
+   "main_clip": "htt222.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 44,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 22
+      },
+      {
+       "death": 1,
+       "scene": 22
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 22
+      },
+      {
+       "death": 1,
+       "scene": 22
+      },
+      {
+       "death": 1,
+       "scene": 22
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 110,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 22
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 22
+      },
+      {
+       "death": 2,
+       "scene": 22
+      },
+      {
+       "death": 2,
+       "scene": 22
+      },
+      {
+       "death": 2,
+       "scene": 22
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 156,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 22
+      },
+      {
+       "death": 1,
+       "scene": 22
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 22
+      },
+      {
+       "death": 1,
+       "scene": 22
+      },
+      {
+       "death": 1,
+       "scene": 22
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 200,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 22
+      },
+      {
+       "death": 3,
+       "scene": 22
+      },
+      {
+       "death": 3,
+       "scene": 22
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 3,
+       "scene": 22
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 225,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 22
+      },
+      {
+       "death": 3,
+       "scene": 22
+      },
+      {
+       "death": 3,
+       "scene": 22
+      },
+      {
+       "death": 3,
+       "scene": 22
+      },
+      {
+       "death": 3,
+       "scene": 22
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 240,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 22
+      },
+      {
+       "death": 3,
+       "scene": 22
+      },
+      {
+       "death": 3,
+       "scene": 22
+      },
+      {
+       "death": 3,
+       "scene": 22
+      },
+      {
+       "death": 3,
+       "scene": 22
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "23": {
+   "file": "htt23.TXT",
+   "main_clip": "htt223.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 26,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 56,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 97,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 23
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 141,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 158,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 190,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 229,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 270,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 305,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 324,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 23
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 338,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      },
+      {
+       "death": 1,
+       "scene": 23
+      }
+     ]
+    }
+   ]
+  },
+  "24": {
+   "file": "htt24.TXT",
+   "main_clip": "htt224.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 22,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 57,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 99,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 24
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 140,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 159,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 179,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 24
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 198,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 217,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 24
+      },
+      {
+       "death": 1,
+       "scene": 24
+      }
+     ]
+    }
+   ]
+  },
+  "25": {
+   "file": "htt25.txt",
+   "main_clip": "htt225.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 62,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 25
+      },
+      {
+       "death": 1,
+       "scene": 25
+      },
+      {
+       "death": 2,
+       "scene": 25
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 25
+      },
+      {
+       "death": 1,
+       "scene": 25
+      }
+     ]
+    }
+   ]
+  },
+  "26": {
+   "file": "htt26.txt",
+   "main_clip": "htt226.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 44,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 26
+      },
+      {
+       "death": 1,
+       "scene": 26
+      },
+      {
+       "death": 1,
+       "scene": 26
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 26
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 86,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 26
+      },
+      {
+       "death": 2,
+       "scene": 26
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 26
+      },
+      {
+       "death": 2,
+       "scene": 26
+      },
+      {
+       "death": 2,
+       "scene": 26
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 134,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 26
+      },
+      {
+       "death": 1,
+       "scene": 26
+      },
+      {
+       "death": 1,
+       "scene": 26
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 26
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 163,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 26
+      },
+      {
+       "death": 1,
+       "scene": 26
+      },
+      {
+       "death": 1,
+       "scene": 26
+      },
+      {
+       "death": 1,
+       "scene": 26
+      },
+      {
+       "death": 1,
+       "scene": 26
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 199,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 26
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 3,
+       "scene": 26
+      },
+      {
+       "death": 3,
+       "scene": 26
+      },
+      {
+       "death": 3,
+       "scene": 26
+      },
+      {
+       "death": 3,
+       "scene": 26
+      }
+     ]
+    }
+   ]
+  },
+  "27": {
+   "file": "htt27.txt",
+   "main_clip": "htt227.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 60,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 27
+      },
+      {
+       "death": 1,
+       "scene": 27
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 27
+      },
+      {
+       "death": 1,
+       "scene": 27
+      },
+      {
+       "death": 1,
+       "scene": 27
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 83,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 27
+      },
+      {
+       "death": 2,
+       "scene": 27
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 27
+      },
+      {
+       "death": 2,
+       "scene": 27
+      },
+      {
+       "death": 2,
+       "scene": 27
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 107,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 27
+      },
+      {
+       "death": 3,
+       "scene": 27
+      },
+      {
+       "death": 3,
+       "scene": 27
+      },
+      {
+       "death": 3,
+       "scene": 27
+      },
+      {
+       "death": 3,
+       "scene": 27
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 130,
+     "b": 0,
+     "c": [
+      {
+       "death": 4,
+       "scene": 27
+      },
+      {
+       "death": 4,
+       "scene": 27
+      },
+      {
+       "death": 4,
+       "scene": 27
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 4,
+       "scene": 27
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "28": {
+   "file": "htt28.txt",
+   "main_clip": "htt228.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 93,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "branch": "p1"
+      },
+      {
+       "death": 1,
+       "scene": 28
+      }
+     ]
+    }
+   ]
+  },
+  "29": {
+   "file": "htt29.TXT",
+   "main_clip": null,
+   "rows": [
+    {
+     "a": 48,
+     "frame": 82,
+     "b": 1,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 29
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 61,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 29
+      },
+      {
+       "death": 2,
+       "scene": 29
+      },
+      {
+       "death": 2,
+       "scene": 29
+      },
+      {
+       "death": 2,
+       "scene": 29
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 29
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 70,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 29
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 29
+      },
+      {
+       "death": 2,
+       "scene": 29
+      },
+      {
+       "death": 2,
+       "scene": 29
+      },
+      {
+       "death": 2,
+       "scene": 29
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 82,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 29
+      },
+      {
+       "death": 2,
+       "scene": 29
+      },
+      {
+       "death": 2,
+       "scene": 29
+      },
+      {
+       "death": 2,
+       "scene": 29
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 29
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 134,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 29
+      },
+      {
+       "death": 3,
+       "scene": 29
+      },
+      {
+       "death": 3,
+       "scene": 29
+      },
+      {
+       "death": 3,
+       "scene": 29
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 3,
+       "scene": 29
+      }
+     ]
+    }
+   ]
+  },
+  "30": {
+   "file": "htt30.txt",
+   "main_clip": "htt230.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 88,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 30
+      },
+      {
+       "death": 1,
+       "scene": 30
+      },
+      {
+       "death": 1,
+       "scene": 30
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 30
+      },
+      {
+       "death": 1,
+       "scene": 30
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 125,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 30
+      },
+      {
+       "death": 1,
+       "scene": 30
+      },
+      {
+       "death": 1,
+       "scene": 30
+      },
+      {
+       "death": 1,
+       "scene": 30
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 30
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 171,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 30
+      },
+      {
+       "death": 1,
+       "scene": 30
+      },
+      {
+       "death": 1,
+       "scene": 30
+      },
+      {
+       "death": 1,
+       "scene": 30
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 30
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 216,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 30
+      },
+      {
+       "death": 2,
+       "scene": 30
+      },
+      {
+       "death": 2,
+       "scene": 30
+      },
+      {
+       "death": 2,
+       "scene": 30
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 30
+      }
+     ]
+    }
+   ]
+  },
+  "31": {
+   "file": "htt31.txt",
+   "main_clip": "htt231.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 60,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 31
+      },
+      {
+       "death": 1,
+       "scene": 31
+      },
+      {
+       "death": 1,
+       "scene": 31
+      },
+      {
+       "death": 1,
+       "scene": 31
+      },
+      {
+       "death": 1,
+       "scene": 31
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 78,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 31
+      },
+      {
+       "death": 1,
+       "scene": 31
+      },
+      {
+       "death": 1,
+       "scene": 31
+      },
+      {
+       "death": 1,
+       "scene": 31
+      },
+      {
+       "death": 1,
+       "scene": 31
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 88,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 31
+      },
+      {
+       "death": 2,
+       "scene": 31
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 31
+      },
+      {
+       "death": 2,
+       "scene": 31
+      },
+      {
+       "death": 2,
+       "scene": 31
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 116,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 31
+      },
+      {
+       "death": 3,
+       "scene": 31
+      },
+      {
+       "death": 3,
+       "scene": 31
+      },
+      {
+       "death": 3,
+       "scene": 31
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "32": {
+   "file": "htt32.TXT",
+   "main_clip": "htt232.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 40,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 32
+      },
+      {
+       "death": 1,
+       "scene": 32
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 32
+      },
+      {
+       "death": 1,
+       "scene": 32
+      },
+      {
+       "death": 1,
+       "scene": 32
+      }
+     ]
+    }
+   ]
+  },
+  "33": {
+   "file": "htt33.txt",
+   "main_clip": "htt233.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 82,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 33
+      },
+      {
+       "death": 1,
+       "scene": 33
+      },
+      {
+       "death": 1,
+       "scene": 33
+      },
+      {
+       "death": 1,
+       "scene": 33
+      },
+      {
+       "death": 1,
+       "scene": 33
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 145,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 33
+      },
+      {
+       "death": 2,
+       "scene": 33
+      },
+      {
+       "death": 2,
+       "scene": 33
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 33
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 212,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 33
+      },
+      {
+       "death": 3,
+       "scene": 33
+      },
+      {
+       "death": 3,
+       "scene": 33
+      },
+      {
+       "death": 3,
+       "scene": 33
+      },
+      {
+       "death": 3,
+       "scene": 33
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 306,
+     "b": 0,
+     "c": [
+      {
+       "death": 4,
+       "scene": 33
+      },
+      {
+       "death": 4,
+       "scene": 33
+      },
+      {
+       "death": 4,
+       "scene": 33
+      },
+      {
+       "death": 4,
+       "scene": 33
+      },
+      {
+       "death": 4,
+       "scene": 33
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 325,
+     "b": 0,
+     "c": [
+      {
+       "death": 4,
+       "scene": 33
+      },
+      {
+       "death": 4,
+       "scene": 33
+      },
+      {
+       "death": 4,
+       "scene": 33
+      },
+      {
+       "death": 4,
+       "scene": 33
+      },
+      {
+       "death": 4,
+       "scene": 33
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "34": {
+   "file": "htt34.TXT",
+   "main_clip": "htt234.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 52,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 34
+      },
+      {
+       "death": 1,
+       "scene": 34
+      },
+      {
+       "death": 1,
+       "scene": 34
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 34
+      },
+      {
+       "death": 1,
+       "scene": 34
+      }
+     ]
+    }
+   ]
+  },
+  "35": {
+   "file": "htt35.TXT",
+   "main_clip": "htt235.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 79,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 35
+      },
+      {
+       "death": 1,
+       "scene": 35
+      },
+      {
+       "death": 1,
+       "scene": 35
+      },
+      {
+       "death": 1,
+       "scene": 35
+      },
+      {
+       "death": 1,
+       "scene": 35
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 94,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 35
+      },
+      {
+       "death": 2,
+       "scene": 35
+      },
+      {
+       "death": 2,
+       "scene": 35
+      },
+      {
+       "death": 2,
+       "scene": 35
+      },
+      {
+       "death": 2,
+       "scene": 35
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 149,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 35
+      },
+      {
+       "death": 3,
+       "scene": 35
+      },
+      {
+       "death": 3,
+       "scene": 35
+      },
+      {
+       "death": 3,
+       "scene": 35
+      },
+      {
+       "death": 3,
+       "scene": 35
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "36": {
+   "file": "htt36.TXT",
+   "main_clip": "htt236.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 52,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 36
+      },
+      {
+       "death": 1,
+       "scene": 36
+      },
+      {
+       "death": 1,
+       "scene": 36
+      },
+      {
+       "death": 1,
+       "scene": 36
+      },
+      {
+       "death": 1,
+       "scene": 36
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 97,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 36
+      },
+      {
+       "death": 2,
+       "scene": 36
+      },
+      {
+       "death": 2,
+       "scene": 36
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 36
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 188,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 36
+      },
+      {
+       "death": 2,
+       "scene": 36
+      },
+      {
+       "death": 2,
+       "scene": 36
+      },
+      {
+       "death": 2,
+       "scene": 36
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 36
+      }
+     ]
+    }
+   ]
+  },
+  "37": {
+   "file": "htt37.txt",
+   "main_clip": "htt237.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 21,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "death": 1,
+       "scene": 37
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 60,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 37
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 99,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 37
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 117,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 37
+      },
+      {
+       "death": 2,
+       "scene": 37
+      },
+      {
+       "death": 2,
+       "scene": 37
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 37
+      },
+      {
+       "death": 2,
+       "scene": 37
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 126,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "death": 1,
+       "scene": 37
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 151,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "death": 1,
+       "scene": 37
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 174,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "death": 1,
+       "scene": 37
+      },
+      {
+       "death": 1,
+       "scene": 37
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 197,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 37
+      },
+      {
+       "death": 2,
+       "scene": 37
+      },
+      {
+       "death": 2,
+       "scene": 37
+      },
+      {
+       "death": 2,
+       "scene": 37
+      },
+      {
+       "death": 2,
+       "scene": 37
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "38": {
+   "file": "htt38.TXT",
+   "main_clip": "htt238.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 80,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 38
+      },
+      {
+       "death": 2,
+       "scene": 38
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 38
+      },
+      {
+       "death": 2,
+       "scene": 38
+      },
+      {
+       "death": 2,
+       "scene": 38
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 92,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 38
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 38
+      },
+      {
+       "death": 1,
+       "scene": 38
+      },
+      {
+       "death": 1,
+       "scene": 38
+      },
+      {
+       "death": 1,
+       "scene": 38
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 105,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 38
+      },
+      {
+       "death": 3,
+       "scene": 38
+      },
+      {
+       "death": 3,
+       "scene": 38
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 3,
+       "scene": 38
+      },
+      {
+       "death": 3,
+       "scene": 38
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 131,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 38
+      },
+      {
+       "death": 3,
+       "scene": 38
+      },
+      {
+       "death": 3,
+       "scene": 38
+      },
+      {
+       "death": 3,
+       "scene": 38
+      },
+      {
+       "death": 3,
+       "scene": 38
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 183,
+     "b": 0,
+     "c": [
+      {
+       "death": 4,
+       "scene": 38
+      },
+      {
+       "death": 4,
+       "scene": 38
+      },
+      {
+       "death": 4,
+       "scene": 38
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 4,
+       "scene": 38
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "39": {
+   "file": "htt39.txt",
+   "main_clip": "htt239.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 45,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 39
+      },
+      {
+       "death": 1,
+       "scene": 39
+      },
+      {
+       "death": 1,
+       "scene": 39
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 39
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 94,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 39
+      },
+      {
+       "death": 2,
+       "scene": 39
+      },
+      {
+       "death": 2,
+       "scene": 39
+      },
+      {
+       "death": 2,
+       "scene": 39
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 140,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 39
+      },
+      {
+       "death": 3,
+       "scene": 39
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 3,
+       "scene": 39
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 157,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 39
+      },
+      {
+       "death": 3,
+       "scene": 39
+      },
+      {
+       "death": 3,
+       "scene": 39
+      },
+      {
+       "death": 3,
+       "scene": 39
+      },
+      {
+       "death": 3,
+       "scene": 39
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "40": {
+   "file": "htt40.txt",
+   "main_clip": "htt240.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 56,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 40
+      },
+      {
+       "death": 1,
+       "scene": 40
+      },
+      {
+       "death": 1,
+       "scene": 40
+      },
+      {
+       "death": 1,
+       "scene": 40
+      },
+      {
+       "death": 1,
+       "scene": 40
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 72,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 40
+      },
+      {
+       "death": 1,
+       "scene": 40
+      },
+      {
+       "death": 1,
+       "scene": 40
+      },
+      {
+       "death": 1,
+       "scene": 40
+      },
+      {
+       "death": 1,
+       "scene": 40
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 86,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 40
+      },
+      {
+       "death": 1,
+       "scene": 40
+      },
+      {
+       "death": 1,
+       "scene": 40
+      },
+      {
+       "death": 1,
+       "scene": 40
+      },
+      {
+       "death": 1,
+       "scene": 40
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "41": {
+   "file": "htt41.TXT",
+   "main_clip": "htt241.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 51,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 41
+      },
+      {
+       "death": 1,
+       "scene": 41
+      },
+      {
+       "death": 1,
+       "scene": 41
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 41
+      },
+      {
+       "death": 1,
+       "scene": 41
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 82,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 41
+      },
+      {
+       "death": 2,
+       "scene": 41
+      },
+      {
+       "death": 2,
+       "scene": 41
+      },
+      {
+       "death": 2,
+       "scene": 41
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 41
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 115,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 41
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 41
+      },
+      {
+       "death": 1,
+       "scene": 41
+      },
+      {
+       "death": 1,
+       "scene": 41
+      },
+      {
+       "death": 1,
+       "scene": 41
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 138,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 41
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 41
+      },
+      {
+       "death": 1,
+       "scene": 41
+      },
+      {
+       "death": 1,
+       "scene": 41
+      },
+      {
+       "death": 1,
+       "scene": 41
+      }
+     ]
+    }
+   ]
+  },
+  "42": {
+   "file": "htt42.txt",
+   "main_clip": "htt242.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 29,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 42
+      },
+      {
+       "death": 1,
+       "scene": 42
+      },
+      {
+       "death": 1,
+       "scene": 42
+      },
+      {
+       "death": 1,
+       "scene": 42
+      },
+      {
+       "death": 1,
+       "scene": 42
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 44,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 42
+      },
+      {
+       "death": 2,
+       "scene": 42
+      },
+      {
+       "death": 2,
+       "scene": 42
+      },
+      {
+       "death": 2,
+       "scene": 42
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 101,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 42
+      },
+      {
+       "death": 3,
+       "scene": 42
+      },
+      {
+       "death": 3,
+       "scene": 42
+      },
+      {
+       "death": 3,
+       "scene": 42
+      },
+      {
+       "death": 3,
+       "scene": 42
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 112,
+     "b": 0,
+     "c": [
+      {
+       "death": 4,
+       "scene": 42
+      },
+      {
+       "death": 4,
+       "scene": 42
+      },
+      {
+       "death": 4,
+       "scene": 42
+      },
+      {
+       "death": 4,
+       "scene": 42
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 165,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 42
+      },
+      {
+       "death": 1,
+       "scene": 42
+      },
+      {
+       "death": 1,
+       "scene": 42
+      },
+      {
+       "death": 1,
+       "scene": 42
+      },
+      {
+       "death": 1,
+       "scene": 42
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 174,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 42
+      },
+      {
+       "death": 2,
+       "scene": 42
+      },
+      {
+       "death": 2,
+       "scene": 42
+      },
+      {
+       "death": 2,
+       "scene": 42
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "43": {
+   "file": "htt43.txt",
+   "main_clip": "htt243.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 48,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 43
+      },
+      {
+       "death": 1,
+       "scene": 43
+      },
+      {
+       "death": 1,
+       "scene": 43
+      },
+      {
+       "death": 1,
+       "scene": 43
+      },
+      {
+       "death": 1,
+       "scene": 43
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 63,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 43
+      },
+      {
+       "death": 1,
+       "scene": 43
+      },
+      {
+       "death": 1,
+       "scene": 43
+      },
+      {
+       "death": 1,
+       "scene": 43
+      },
+      {
+       "death": 1,
+       "scene": 43
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 89,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 43
+      },
+      {
+       "death": 2,
+       "scene": 43
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 43
+      },
+      {
+       "death": 2,
+       "scene": 43
+      }
+     ]
+    }
+   ]
+  },
+  "44": {
+   "file": "htt44.txt",
+   "main_clip": "htt244.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 69,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 44
+      },
+      {
+       "death": 1,
+       "scene": 44
+      },
+      {
+       "death": 1,
+       "scene": 44
+      },
+      {
+       "death": 1,
+       "scene": 44
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 44
+      }
+     ]
+    }
+   ]
+  },
+  "45": {
+   "file": "htt45.txt",
+   "main_clip": "htt245.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 145,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 45
+      },
+      {
+       "death": 1,
+       "scene": 45
+      },
+      {
+       "death": 1,
+       "scene": 45
+      },
+      {
+       "death": 1,
+       "scene": 45
+      },
+      {
+       "death": 1,
+       "scene": 45
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "46": {
+   "file": "htt46.txt",
+   "main_clip": "htt246.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 40,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 46
+      },
+      {
+       "death": 1,
+       "scene": 46
+      },
+      {
+       "death": 1,
+       "scene": 46
+      },
+      {
+       "death": 1,
+       "scene": 46
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 46
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 63,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 46
+      },
+      {
+       "death": 1,
+       "scene": 46
+      },
+      {
+       "death": 1,
+       "scene": 46
+      },
+      {
+       "death": 1,
+       "scene": 46
+      },
+      {
+       "death": 1,
+       "scene": 46
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 135,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 46
+      },
+      {
+       "death": 2,
+       "scene": 46
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 46
+      },
+      {
+       "death": 2,
+       "scene": 46
+      },
+      {
+       "death": 2,
+       "scene": 46
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 203,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 46
+      },
+      {
+       "death": 2,
+       "scene": 46
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 46
+      },
+      {
+       "death": 2,
+       "scene": 46
+      },
+      {
+       "death": 2,
+       "scene": 46
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 231,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 46
+      },
+      {
+       "death": 2,
+       "scene": 46
+      },
+      {
+       "death": 2,
+       "scene": 46
+      },
+      {
+       "death": 2,
+       "scene": 46
+      },
+      {
+       "death": 2,
+       "scene": 46
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 255,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 46
+      },
+      {
+       "death": 2,
+       "scene": 46
+      },
+      {
+       "death": 2,
+       "scene": 46
+      },
+      {
+       "death": 2,
+       "scene": 46
+      },
+      {
+       "death": 2,
+       "scene": 46
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 275,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 46
+      },
+      {
+       "death": 3,
+       "scene": 46
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 3,
+       "scene": 46
+      },
+      {
+       "death": 3,
+       "scene": 46
+      },
+      {
+       "death": 3,
+       "scene": 46
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 294,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 46
+      },
+      {
+       "death": 3,
+       "scene": 46
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 3,
+       "scene": 46
+      },
+      {
+       "death": 3,
+       "scene": 46
+      },
+      {
+       "death": 3,
+       "scene": 46
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 333,
+     "b": 0,
+     "c": [
+      {
+       "death": 4,
+       "scene": 46
+      },
+      {
+       "death": 4,
+       "scene": 46
+      },
+      {
+       "death": 4,
+       "scene": 46
+      },
+      {
+       "death": 4,
+       "scene": 46
+      },
+      {
+       "death": 4,
+       "scene": 46
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 368,
+     "b": 0,
+     "c": [
+      {
+       "death": 5,
+       "scene": 46
+      },
+      {
+       "death": 5,
+       "scene": 46
+      },
+      {
+       "death": 5,
+       "scene": 46
+      },
+      {
+       "death": 5,
+       "scene": 46
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "47": {
+   "file": "htt47.txt",
+   "main_clip": "htt247.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 106,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 47
+      },
+      {
+       "death": 2,
+       "scene": 47
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 47
+      },
+      {
+       "death": 2,
+       "scene": 47
+      },
+      {
+       "death": 2,
+       "scene": 47
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 121,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 47
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 47
+      },
+      {
+       "death": 1,
+       "scene": 47
+      },
+      {
+       "death": 1,
+       "scene": 47
+      },
+      {
+       "death": 1,
+       "scene": 47
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 132,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 47
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 47
+      },
+      {
+       "death": 1,
+       "scene": 47
+      },
+      {
+       "death": 1,
+       "scene": 47
+      },
+      {
+       "death": 1,
+       "scene": 47
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 141,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 47
+      },
+      {
+       "death": 1,
+       "scene": 47
+      },
+      {
+       "death": 1,
+       "scene": 47
+      },
+      {
+       "death": 1,
+       "scene": 47
+      },
+      {
+       "death": 1,
+       "scene": 47
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 163,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 47
+      },
+      {
+       "death": 1,
+       "scene": 47
+      },
+      {
+       "death": 1,
+       "scene": 47
+      },
+      {
+       "death": 1,
+       "scene": 47
+      },
+      {
+       "death": 1,
+       "scene": 47
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "48": {
+   "file": "htt48.txt",
+   "main_clip": "htt248.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 74,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 48
+      },
+      {
+       "death": 1,
+       "scene": 48
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 48
+      },
+      {
+       "death": 1,
+       "scene": 48
+      },
+      {
+       "death": 1,
+       "scene": 48
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 84,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 48
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 48
+      },
+      {
+       "death": 1,
+       "scene": 48
+      },
+      {
+       "death": 1,
+       "scene": 48
+      },
+      {
+       "death": 1,
+       "scene": 48
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 98,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 48
+      },
+      {
+       "death": 1,
+       "scene": 48
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 48
+      },
+      {
+       "death": 1,
+       "scene": 48
+      },
+      {
+       "death": 1,
+       "scene": 48
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 109,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 48
+      },
+      {
+       "death": 1,
+       "scene": 48
+      },
+      {
+       "death": 1,
+       "scene": 48
+      },
+      {
+       "death": 1,
+       "scene": 48
+      },
+      {
+       "death": 1,
+       "scene": 48
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "49": {
+   "file": "htt49.txt",
+   "main_clip": "htt249.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 22,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 49
+      },
+      {
+       "death": 1,
+       "scene": 49
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 49
+      },
+      {
+       "death": 1,
+       "scene": 49
+      },
+      {
+       "death": 1,
+       "scene": 49
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 39,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 49
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 49
+      },
+      {
+       "death": 1,
+       "scene": 49
+      },
+      {
+       "death": 1,
+       "scene": 49
+      },
+      {
+       "death": 1,
+       "scene": 49
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 52,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 49
+      },
+      {
+       "death": 1,
+       "scene": 49
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 49
+      },
+      {
+       "death": 1,
+       "scene": 49
+      },
+      {
+       "death": 1,
+       "scene": 49
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 69,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 49
+      },
+      {
+       "death": 2,
+       "scene": 49
+      },
+      {
+       "death": 2,
+       "scene": 49
+      },
+      {
+       "death": 2,
+       "scene": 49
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 49
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 87,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 49
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 49
+      },
+      {
+       "death": 1,
+       "scene": 49
+      },
+      {
+       "death": 1,
+       "scene": 49
+      },
+      {
+       "death": 1,
+       "scene": 49
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 107,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 49
+      },
+      {
+       "death": 2,
+       "scene": 49
+      },
+      {
+       "death": 2,
+       "scene": 49
+      },
+      {
+       "death": 2,
+       "scene": 49
+      },
+      {
+       "death": 2,
+       "scene": 49
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "50": {
+   "file": "htt50.txt",
+   "main_clip": "htt250.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 48,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 50
+      },
+      {
+       "death": 1,
+       "scene": 50
+      },
+      {
+       "death": 1,
+       "scene": 50
+      },
+      {
+       "death": 1,
+       "scene": 50
+      },
+      {
+       "death": 1,
+       "scene": 50
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "51": {
+   "file": "htt51.txt",
+   "main_clip": "htt251.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 49,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 51
+      },
+      {
+       "death": 1,
+       "scene": 51
+      },
+      {
+       "death": 1,
+       "scene": 51
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 51
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "52": {
+   "file": "htt52.txt",
+   "main_clip": "htt252.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 55,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 52
+      },
+      {
+       "death": 1,
+       "scene": 52
+      },
+      {
+       "death": 1,
+       "scene": 52
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 52
+      },
+      {
+       "death": 1,
+       "scene": 52
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 95,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 52
+      },
+      {
+       "death": 2,
+       "scene": 52
+      },
+      {
+       "death": 2,
+       "scene": 52
+      },
+      {
+       "death": 2,
+       "scene": 52
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 52
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 124,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 52
+      },
+      {
+       "death": 1,
+       "scene": 52
+      },
+      {
+       "death": 1,
+       "scene": 52
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 52
+      },
+      {
+       "death": 1,
+       "scene": 52
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 140,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 52
+      },
+      {
+       "death": 2,
+       "scene": 52
+      },
+      {
+       "death": 2,
+       "scene": 52
+      },
+      {
+       "death": 2,
+       "scene": 52
+      },
+      {
+       "death": 2,
+       "scene": 52
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 173,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 52
+      },
+      {
+       "death": 2,
+       "scene": 52
+      },
+      {
+       "death": 2,
+       "scene": 52
+      },
+      {
+       "death": 2,
+       "scene": 52
+      },
+      {
+       "death": 2,
+       "scene": 52
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 205,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 52
+      },
+      {
+       "death": 3,
+       "scene": 52
+      },
+      {
+       "death": 3,
+       "scene": 52
+      },
+      {
+       "death": 3,
+       "scene": 52
+      },
+      {
+       "death": 3,
+       "scene": 52
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "53": {
+   "file": "htt53.txt",
+   "main_clip": "htt253.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 39,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 53
+      },
+      {
+       "death": 1,
+       "scene": 53
+      },
+      {
+       "death": 1,
+       "scene": 53
+      },
+      {
+       "death": 1,
+       "scene": 53
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 53
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 73,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 53
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 53
+      },
+      {
+       "death": 2,
+       "scene": 53
+      },
+      {
+       "death": 2,
+       "scene": 53
+      },
+      {
+       "death": 2,
+       "scene": 53
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 94,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 53
+      },
+      {
+       "death": 2,
+       "scene": 53
+      },
+      {
+       "death": 2,
+       "scene": 53
+      },
+      {
+       "death": 2,
+       "scene": 53
+      },
+      {
+       "death": 2,
+       "scene": 53
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "54": {
+   "file": "htt54.txt",
+   "main_clip": "htt254.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 100,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 54
+      },
+      {
+       "death": 3,
+       "scene": 54
+      },
+      {
+       "death": 3,
+       "scene": 54
+      },
+      {
+       "death": 3,
+       "scene": 54
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 3,
+       "scene": 54
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 125,
+     "b": 0,
+     "c": [
+      {
+       "death": 4,
+       "scene": 54
+      },
+      {
+       "death": 4,
+       "scene": 54
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 4,
+       "scene": 54
+      },
+      {
+       "death": 4,
+       "scene": 54
+      },
+      {
+       "death": 4,
+       "scene": 54
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 162,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 54
+      },
+      {
+       "death": 3,
+       "scene": 54
+      },
+      {
+       "death": 3,
+       "scene": 54
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 3,
+       "scene": 54
+      },
+      {
+       "death": 3,
+       "scene": 54
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 190,
+     "b": 0,
+     "c": [
+      {
+       "death": 4,
+       "scene": 54
+      },
+      {
+       "death": 4,
+       "scene": 54
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 4,
+       "scene": 54
+      },
+      {
+       "death": 4,
+       "scene": 54
+      },
+      {
+       "death": 4,
+       "scene": 54
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 220,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 54
+      },
+      {
+       "death": 3,
+       "scene": 54
+      },
+      {
+       "death": 3,
+       "scene": 54
+      },
+      {
+       "death": 3,
+       "scene": 54
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 3,
+       "scene": 54
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 242,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 54
+      },
+      {
+       "death": 3,
+       "scene": 54
+      },
+      {
+       "death": 3,
+       "scene": 54
+      },
+      {
+       "death": 3,
+       "scene": 54
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 3,
+       "scene": 54
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 308,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 54
+      },
+      {
+       "death": 1,
+       "scene": 54
+      },
+      {
+       "death": 1,
+       "scene": 54
+      },
+      {
+       "death": 1,
+       "scene": 54
+      },
+      {
+       "death": 1,
+       "scene": 54
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "59": {
+   "file": "htt59.txt",
+   "main_clip": "htt259.avi",
+   "rows": [
+    {
+     "a": 75,
+     "frame": 200,
+     "b": 1,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "branch": "p1"
+      }
+     ]
+    }
+   ]
+  },
+  "60": {
+   "file": "htt60.txt",
+   "main_clip": "htt260.avi",
+   "rows": [
+    {
+     "a": 36,
+     "frame": 200,
+     "b": 1,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "branch": "p1"
+      }
+     ]
+    }
+   ]
+  },
+  "61": {
+   "file": "htt61.txt",
+   "main_clip": "htt261.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 999,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "62": {
+   "file": "htt62.txt",
+   "main_clip": "htt262.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 999,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "63": {
+   "file": "htt63.txt",
+   "main_clip": "htt263.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 999,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "64": {
+   "file": "htt64.txt",
+   "main_clip": "htt264.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 999,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "65": {
+   "file": "htt65.txt",
+   "main_clip": "htt265.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 999,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "66": {
+   "file": "htt66.txt",
+   "main_clip": "htt266.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 999,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "67": {
+   "file": "htt67.txt",
+   "main_clip": "htt267.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 999,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "68": {
+   "file": "htt68.txt",
+   "main_clip": "htt268.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 999,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "69": {
+   "file": "htt69.txt",
+   "main_clip": "htt269.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 999,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "70": {
+   "file": "HTT70.txt",
+   "main_clip": "htt270.avi",
+   "rows": [
+    {
+     "a": 65,
+     "frame": 200,
+     "b": 1,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "branch": "p1"
+      }
+     ]
+    }
+   ]
+  },
+  "71": {
+   "file": "htt71.txt",
+   "main_clip": "htt271.avi",
+   "rows": [
+    {
+     "a": 65,
+     "frame": 200,
+     "b": 1,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "branch": "p1"
+      }
+     ]
+    }
+   ]
+  },
+  "72": {
+   "file": "htt72.txt",
+   "main_clip": "htt272.avi",
+   "rows": [
+    {
+     "a": 55,
+     "frame": 200,
+     "b": 1,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "branch": "p1"
+      }
+     ]
+    }
+   ]
+  },
+  "73": {
+   "file": "HTT73.txt",
+   "main_clip": "htt273.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 999,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "74": {
+   "file": "htt74.txt",
+   "main_clip": "htt274.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 999,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "75": {
+   "file": "htt75.txt",
+   "main_clip": "htt275.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 999,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "76": {
+   "file": "htt76.txt",
+   "main_clip": "htt276.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 999,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "77": {
+   "file": "htt77.txt",
+   "main_clip": "htt277.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 999,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "78": {
+   "file": "htt78.txt",
+   "main_clip": "htt278.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 999,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "79": {
+   "file": "htt79.txt",
+   "main_clip": "htt279.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 999,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "80": {
+   "file": "htt80.txt",
+   "main_clip": "htt280.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 64,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "branch": "p1"
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 377,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 33
+      },
+      {
+       "death": 1,
+       "scene": 33
+      },
+      {
+       "death": 1,
+       "scene": 33
+      },
+      {
+       "death": 1,
+       "scene": 33
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 439,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 33
+      },
+      {
+       "death": 2,
+       "scene": 33
+      },
+      {
+       "death": 2,
+       "scene": 33
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 33
+      },
+      {
+       "ok": true
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 605,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "death": 1,
+       "scene": 21
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 633,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "death": 1,
+       "scene": 21
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 21
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 669,
+     "b": 0,
+     "c": [
+      {
+       "death": 3,
+       "scene": 21
+      },
+      {
+       "death": 3,
+       "scene": 21
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 3,
+       "scene": 21
+      },
+      {
+       "death": 3,
+       "scene": 21
+      },
+      {
+       "death": 3,
+       "scene": 21
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 800,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 53
+      },
+      {
+       "death": 1,
+       "scene": 53
+      },
+      {
+       "death": 1,
+       "scene": 53
+      },
+      {
+       "death": 1,
+       "scene": 53
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 1,
+       "scene": 53
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 832,
+     "b": 0,
+     "c": [
+      {
+       "death": 2,
+       "scene": 53
+      },
+      {
+       "ok": true
+      },
+      {
+       "death": 2,
+       "scene": 53
+      },
+      {
+       "death": 2,
+       "scene": 53
+      },
+      {
+       "death": 2,
+       "scene": 53
+      },
+      {
+       "death": 2,
+       "scene": 53
+      }
+     ]
+    },
+    {
+     "a": 0,
+     "frame": 856,
+     "b": 0,
+     "c": [
+      {
+       "death": 1,
+       "scene": 53
+      },
+      {
+       "death": 1,
+       "scene": 53
+      },
+      {
+       "death": 1,
+       "scene": 53
+      },
+      {
+       "death": 1,
+       "scene": 53
+      },
+      {
+       "death": 1,
+       "scene": 53
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  },
+  "81": {
+   "file": "htt81.txt",
+   "main_clip": "htt281.avi",
+   "rows": [
+    {
+     "a": 1,
+     "frame": 465,
+     "b": 1,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "branch": "p1"
+      }
+     ]
+    }
+   ]
+  },
+  "90": {
+   "file": "htt90.txt",
+   "main_clip": "htt290.avi",
+   "rows": [
+    {
+     "a": 0,
+     "frame": 999,
+     "b": 0,
+     "c": [
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      },
+      {
+       "ok": true
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "hot": {
+  "htt280.hot": [
+   0,
+   459,
+   682,
+   870,
+   9999
+  ]
+ },
+ "problems": [
+  "HTT70.txt:1: p1 but no htt270p1.avi",
+  "htt29.TXT: refers to missing htt229d1.avi",
+  "htt29.TXT: refers to missing htt229d2.avi",
+  "htt29.TXT: refers to missing htt229d3.avi",
+  "htt59.txt:1: p1 but no htt259p1.avi",
+  "htt60.txt:1: p1 but no htt260p1.avi",
+  "htt71.txt:1: p1 but no htt271p1.avi",
+  "htt72.txt:1: p1 but no htt272p1.avi",
+  "htt81.txt:1: p1 but no htt281p1.avi"
+ ]
+}

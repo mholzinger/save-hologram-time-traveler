@@ -1,0 +1,7 @@
+# Python packages for the tools (make doctor checks them): python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+numpy
+pillow
+capstone
+unicorn
+ruff==0.17.0
+clang-format==19.1.7

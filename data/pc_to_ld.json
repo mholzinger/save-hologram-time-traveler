@@ -1,0 +1,743 @@
+{
+ "source": "tools/match_pc_ld.py (structure + length; see docstring)",
+ "matches": [
+  {
+   "scene": 1,
+   "chapter": 1,
+   "episode": 30,
+   "score": 1.536,
+   "outcome_agreement": "10/12",
+   "length_error": 0.009,
+   "confident": true
+  },
+  {
+   "scene": 2,
+   "chapter": 1,
+   "episode": 35,
+   "score": 1.008,
+   "outcome_agreement": "15/18",
+   "length_error": 0.003,
+   "confident": true
+  },
+  {
+   "scene": 3,
+   "chapter": 4,
+   "episode": 71,
+   "score": 1.66,
+   "outcome_agreement": "6/6",
+   "length_error": 0.319,
+   "confident": false
+  },
+  {
+   "scene": 4,
+   "chapter": 1,
+   "episode": 25,
+   "score": 0.665,
+   "outcome_agreement": "6/12",
+   "length_error": 0.193,
+   "confident": false
+  },
+  {
+   "scene": 5,
+   "chapter": 1,
+   "episode": 36,
+   "score": 1.521,
+   "outcome_agreement": "11/12",
+   "length_error": 0.061,
+   "confident": false
+  },
+  {
+   "scene": 6,
+   "chapter": 7,
+   "episode": 51,
+   "score": 1.613,
+   "outcome_agreement": "5/6",
+   "length_error": 0.008,
+   "confident": true
+  },
+  {
+   "scene": 7,
+   "chapter": 8,
+   "episode": 15,
+   "score": 1.166,
+   "outcome_agreement": "7/11",
+   "length_error": 0.019,
+   "confident": true
+  },
+  {
+   "scene": 8,
+   "chapter": 2,
+   "episode": 20,
+   "score": 1.132,
+   "outcome_agreement": "18/24",
+   "length_error": 0.001,
+   "confident": true
+  },
+  {
+   "scene": 9,
+   "chapter": 2,
+   "episode": 21,
+   "score": 1.095,
+   "outcome_agreement": "20/24",
+   "length_error": 0.002,
+   "confident": true
+  },
+  {
+   "scene": 10,
+   "chapter": 6,
+   "episode": 50,
+   "score": 1.727,
+   "outcome_agreement": "6/6",
+   "length_error": 0.031,
+   "confident": true
+  },
+  {
+   "scene": 11,
+   "chapter": 4,
+   "episode": 40,
+   "score": 0.11,
+   "outcome_agreement": "18/36",
+   "length_error": 0.144,
+   "confident": false
+  },
+  {
+   "scene": 12,
+   "chapter": 7,
+   "episode": 40,
+   "score": 1.081,
+   "outcome_agreement": "17/22",
+   "length_error": 0.004,
+   "confident": true
+  },
+  {
+   "scene": 13,
+   "chapter": 2,
+   "episode": 43,
+   "score": 1.353,
+   "outcome_agreement": "21/24",
+   "length_error": 0.0,
+   "confident": true
+  },
+  {
+   "scene": 14,
+   "chapter": 2,
+   "episode": 50,
+   "score": 1.866,
+   "outcome_agreement": "6/6",
+   "length_error": 0.004,
+   "confident": true
+  },
+  {
+   "scene": 15,
+   "chapter": 7,
+   "episode": 50,
+   "score": 0.737,
+   "outcome_agreement": "13/24",
+   "length_error": 0.005,
+   "confident": false
+  },
+  {
+   "scene": 16,
+   "chapter": 2,
+   "episode": 61,
+   "score": 0.349,
+   "outcome_agreement": "17/24",
+   "length_error": 0.003,
+   "confident": true
+  },
+  {
+   "scene": 17,
+   "chapter": 7,
+   "episode": 41,
+   "score": 1.539,
+   "outcome_agreement": "25/30",
+   "length_error": 0.007,
+   "confident": true
+  },
+  {
+   "scene": 18,
+   "chapter": 7,
+   "episode": 42,
+   "score": 1.608,
+   "outcome_agreement": "26/30",
+   "length_error": 0.004,
+   "confident": true
+  },
+  {
+   "scene": 19,
+   "chapter": 3,
+   "episode": 23,
+   "score": 1.285,
+   "outcome_agreement": "19/24",
+   "length_error": 0.008,
+   "confident": true
+  },
+  {
+   "scene": 20,
+   "chapter": 3,
+   "episode": 30,
+   "score": 1.813,
+   "outcome_agreement": "6/6",
+   "length_error": 0.006,
+   "confident": true
+  },
+  {
+   "scene": 21,
+   "chapter": 3,
+   "episode": 40,
+   "score": 1.314,
+   "outcome_agreement": "26/36",
+   "length_error": 0.007,
+   "confident": true
+  },
+  {
+   "scene": 22,
+   "chapter": 3,
+   "episode": 50,
+   "score": 1.406,
+   "outcome_agreement": "30/36",
+   "length_error": 0.002,
+   "confident": true
+  },
+  {
+   "scene": 23,
+   "chapter": 7,
+   "episode": 20,
+   "score": 1.412,
+   "outcome_agreement": "50/66",
+   "length_error": 0.001,
+   "confident": true
+  },
+  {
+   "scene": 24,
+   "chapter": 0,
+   "episode": 50,
+   "score": -0.131,
+   "outcome_agreement": "16/48",
+   "length_error": 0.157,
+   "confident": false
+  },
+  {
+   "scene": 25,
+   "chapter": 7,
+   "episode": 21,
+   "score": 1.471,
+   "outcome_agreement": "6/6",
+   "length_error": 0.515,
+   "confident": false
+  },
+  {
+   "scene": 26,
+   "chapter": 3,
+   "episode": 80,
+   "score": 1.241,
+   "outcome_agreement": "25/30",
+   "length_error": 0.006,
+   "confident": true
+  },
+  {
+   "scene": 27,
+   "chapter": 3,
+   "episode": 81,
+   "score": 1.561,
+   "outcome_agreement": "20/24",
+   "length_error": 0.009,
+   "confident": true
+  },
+  {
+   "scene": 28,
+   "chapter": 3,
+   "episode": 82,
+   "score": 1.901,
+   "outcome_agreement": "4/4",
+   "length_error": 0.01,
+   "confident": true
+  },
+  {
+   "scene": 30,
+   "chapter": 4,
+   "episode": 20,
+   "score": 1.356,
+   "outcome_agreement": "17/24",
+   "length_error": 0.004,
+   "confident": true
+  },
+  {
+   "scene": 31,
+   "chapter": 4,
+   "episode": 21,
+   "score": 1.258,
+   "outcome_agreement": "16/24",
+   "length_error": 0.004,
+   "confident": true
+  },
+  {
+   "scene": 32,
+   "chapter": 4,
+   "episode": 30,
+   "score": 1.942,
+   "outcome_agreement": "6/6",
+   "length_error": 0.006,
+   "confident": true
+  },
+  {
+   "scene": 33,
+   "chapter": 4,
+   "episode": 43,
+   "score": 1.349,
+   "outcome_agreement": "24/30",
+   "length_error": 0.005,
+   "confident": true
+  },
+  {
+   "scene": 34,
+   "chapter": 4,
+   "episode": 50,
+   "score": 1.912,
+   "outcome_agreement": "6/6",
+   "length_error": 0.018,
+   "confident": true
+  },
+  {
+   "scene": 35,
+   "chapter": 4,
+   "episode": 46,
+   "score": 1.582,
+   "outcome_agreement": "15/18",
+   "length_error": 0.002,
+   "confident": true
+  },
+  {
+   "scene": 36,
+   "chapter": 4,
+   "episode": 70,
+   "score": 1.042,
+   "outcome_agreement": "12/18",
+   "length_error": 0.002,
+   "confident": true
+  },
+  {
+   "scene": 37,
+   "chapter": 7,
+   "episode": 30,
+   "score": 0.611,
+   "outcome_agreement": "40/48",
+   "length_error": 0.009,
+   "confident": true
+  },
+  {
+   "scene": 38,
+   "chapter": 5,
+   "episode": 20,
+   "score": 1.464,
+   "outcome_agreement": "25/30",
+   "length_error": 0.009,
+   "confident": true
+  },
+  {
+   "scene": 39,
+   "chapter": 5,
+   "episode": 23,
+   "score": 0.951,
+   "outcome_agreement": "17/24",
+   "length_error": 0.011,
+   "confident": true
+  },
+  {
+   "scene": 40,
+   "chapter": 5,
+   "episode": 30,
+   "score": 1.256,
+   "outcome_agreement": "12/18",
+   "length_error": 0.028,
+   "confident": true
+  },
+  {
+   "scene": 41,
+   "chapter": 3,
+   "episode": 51,
+   "score": 0.995,
+   "outcome_agreement": "20/24",
+   "length_error": 0.046,
+   "confident": true
+  },
+  {
+   "scene": 42,
+   "chapter": 5,
+   "episode": 52,
+   "score": 0.941,
+   "outcome_agreement": "28/36",
+   "length_error": 0.008,
+   "confident": true
+  },
+  {
+   "scene": 43,
+   "chapter": 5,
+   "episode": 63,
+   "score": 1.191,
+   "outcome_agreement": "12/18",
+   "length_error": 0.007,
+   "confident": true
+  },
+  {
+   "scene": 44,
+   "chapter": 5,
+   "episode": 61,
+   "score": 1.93,
+   "outcome_agreement": "6/6",
+   "length_error": 0.01,
+   "confident": true
+  },
+  {
+   "scene": 45,
+   "chapter": 6,
+   "episode": 20,
+   "score": 1.613,
+   "outcome_agreement": "5/6",
+   "length_error": 0.012,
+   "confident": true
+  },
+  {
+   "scene": 46,
+   "chapter": 6,
+   "episode": 21,
+   "score": 1.284,
+   "outcome_agreement": "49/60",
+   "length_error": 0.004,
+   "confident": true
+  },
+  {
+   "scene": 47,
+   "chapter": 2,
+   "episode": 31,
+   "score": 1.148,
+   "outcome_agreement": "23/30",
+   "length_error": 0.067,
+   "confident": false
+  },
+  {
+   "scene": 48,
+   "chapter": 6,
+   "episode": 60,
+   "score": 1.179,
+   "outcome_agreement": "17/24",
+   "length_error": 0.138,
+   "confident": false
+  },
+  {
+   "scene": 49,
+   "chapter": 6,
+   "episode": 40,
+   "score": 0.949,
+   "outcome_agreement": "29/36",
+   "length_error": 0.023,
+   "confident": true
+  },
+  {
+   "scene": 50,
+   "chapter": 3,
+   "episode": 62,
+   "score": 0.946,
+   "outcome_agreement": "4/6",
+   "length_error": 0.387,
+   "confident": false
+  },
+  {
+   "scene": 51,
+   "chapter": 2,
+   "episode": 55,
+   "score": 1.782,
+   "outcome_agreement": "6/6",
+   "length_error": 0.018,
+   "confident": true
+  },
+  {
+   "scene": 52,
+   "chapter": 4,
+   "episode": 45,
+   "score": 0.79,
+   "outcome_agreement": "21/36",
+   "length_error": 0.182,
+   "confident": false
+  },
+  {
+   "scene": 53,
+   "chapter": 6,
+   "episode": 71,
+   "score": 1.56,
+   "outcome_agreement": "15/18",
+   "length_error": 0.011,
+   "confident": true
+  },
+  {
+   "scene": 54,
+   "chapter": 8,
+   "episode": 20,
+   "score": 0.588,
+   "outcome_agreement": "16/42",
+   "length_error": 0.004,
+   "confident": false
+  },
+  {
+   "scene": 59,
+   "chapter": 6,
+   "episode": 72,
+   "score": 0.796,
+   "outcome_agreement": "4/4",
+   "length_error": 0.204,
+   "confident": false
+  },
+  {
+   "scene": 60,
+   "chapter": 1,
+   "episode": 29,
+   "score": 1.291,
+   "outcome_agreement": "4/4",
+   "length_error": 0.709,
+   "confident": false
+  },
+  {
+   "scene": 61,
+   "chapter": 1,
+   "episode": 28,
+   "score": 1.959,
+   "outcome_agreement": "5/5",
+   "length_error": 0.041,
+   "confident": true
+  },
+  {
+   "scene": 62,
+   "chapter": 0,
+   "episode": 30,
+   "score": 2.0,
+   "outcome_agreement": "5/5",
+   "length_error": 0.0,
+   "confident": true
+  },
+  {
+   "scene": 63,
+   "chapter": 20,
+   "episode": 15,
+   "score": 1.994,
+   "outcome_agreement": "5/5",
+   "length_error": 0.006,
+   "confident": true
+  },
+  {
+   "scene": 64,
+   "chapter": 20,
+   "episode": 10,
+   "score": 1.655,
+   "outcome_agreement": "5/5",
+   "length_error": 0.345,
+   "confident": false
+  },
+  {
+   "scene": 65,
+   "chapter": 0,
+   "episode": 40,
+   "score": 2.0,
+   "outcome_agreement": "5/5",
+   "length_error": 0.0,
+   "confident": true
+  },
+  {
+   "scene": 66,
+   "chapter": 1,
+   "episode": 5,
+   "score": 1.994,
+   "outcome_agreement": "5/5",
+   "length_error": 0.006,
+   "confident": true
+  },
+  {
+   "scene": 67,
+   "chapter": 0,
+   "episode": 90,
+   "score": 1.097,
+   "outcome_agreement": "5/5",
+   "length_error": 0.903,
+   "confident": false
+  },
+  {
+   "scene": 68,
+   "chapter": 0,
+   "episode": 20,
+   "score": 1.97,
+   "outcome_agreement": "5/5",
+   "length_error": 0.03,
+   "confident": true
+  },
+  {
+   "scene": 69,
+   "chapter": 1,
+   "episode": 24,
+   "score": 1.97,
+   "outcome_agreement": "5/5",
+   "length_error": 0.03,
+   "confident": true
+  },
+  {
+   "scene": 70,
+   "chapter": 1,
+   "episode": 23,
+   "score": 0.926,
+   "outcome_agreement": "2/4",
+   "length_error": 0.074,
+   "confident": false
+  },
+  {
+   "scene": 71,
+   "chapter": 0,
+   "episode": 10,
+   "score": 0.918,
+   "outcome_agreement": "2/4",
+   "length_error": 0.082,
+   "confident": false
+  },
+  {
+   "scene": 72,
+   "chapter": 1,
+   "episode": 6,
+   "score": -0.13,
+   "outcome_agreement": "0/4",
+   "length_error": 0.13,
+   "confident": false
+  },
+  {
+   "scene": 73,
+   "chapter": 0,
+   "episode": 80,
+   "score": 1.946,
+   "outcome_agreement": "5/5",
+   "length_error": 0.054,
+   "confident": false
+  },
+  {
+   "scene": 74,
+   "chapter": 2,
+   "episode": 10,
+   "score": 1.964,
+   "outcome_agreement": "5/5",
+   "length_error": 0.036,
+   "confident": true
+  },
+  {
+   "scene": 75,
+   "chapter": 3,
+   "episode": 10,
+   "score": 1.964,
+   "outcome_agreement": "5/5",
+   "length_error": 0.036,
+   "confident": true
+  },
+  {
+   "scene": 76,
+   "chapter": 5,
+   "episode": 10,
+   "score": 2.0,
+   "outcome_agreement": "5/5",
+   "length_error": 0.0,
+   "confident": true
+  },
+  {
+   "scene": 77,
+   "chapter": 4,
+   "episode": 10,
+   "score": 1.982,
+   "outcome_agreement": "5/5",
+   "length_error": 0.018,
+   "confident": true
+  },
+  {
+   "scene": 78,
+   "chapter": 7,
+   "episode": 10,
+   "score": 1.981,
+   "outcome_agreement": "5/5",
+   "length_error": 0.019,
+   "confident": true
+  },
+  {
+   "scene": 79,
+   "chapter": 6,
+   "episode": 10,
+   "score": 1.982,
+   "outcome_agreement": "5/5",
+   "length_error": 0.018,
+   "confident": true
+  },
+  {
+   "scene": 80,
+   "chapter": 1,
+   "episode": 27,
+   "score": -4.589,
+   "outcome_agreement": "9/52",
+   "length_error": 3.935,
+   "confident": false
+  },
+  {
+   "scene": 81,
+   "chapter": 20,
+   "episode": 20,
+   "score": 1.532,
+   "outcome_agreement": "4/4",
+   "length_error": 0.468,
+   "confident": false
+  },
+  {
+   "scene": 90,
+   "chapter": 1,
+   "episode": 50,
+   "score": 2.0,
+   "outcome_agreement": "5/5",
+   "length_error": 0.0,
+   "confident": true
+  },
+  {
+   "scene": 98,
+   "chapter": 0,
+   "episode": 60,
+   "score": -2.474,
+   "outcome_agreement": "0/0",
+   "length_error": 2.474,
+   "confident": false
+  },
+  {
+   "scene": 99,
+   "chapter": 1,
+   "episode": 26,
+   "score": -2.057,
+   "outcome_agreement": "0/0",
+   "length_error": 2.057,
+   "confident": false
+  }
+ ],
+ "rom_episodes_unmatched": [
+  "C0E70",
+  "C1E10",
+  "C1E20",
+  "C1E21",
+  "C1E22",
+  "C1E40",
+  "C1E7",
+  "C20E30",
+  "C20E40",
+  "C2E30",
+  "C2E38",
+  "C2E42",
+  "C2E60",
+  "C2E63",
+  "C3E22",
+  "C4E22",
+  "C5E21",
+  "C5E40",
+  "C5E43",
+  "C5E50",
+  "C5E51",
+  "C5E60",
+  "C6E22",
+  "C6E30",
+  "C6E70"
+ ]
+}
