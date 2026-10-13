@@ -23,13 +23,13 @@ You can't build the game unless you have all of these:
 timetrv-patcher --rom timetrv.zip --chd timetrv.chd --out out
 ```
 
-Output: `out/timetrv3ds.3dsx` for the Homebrew Launcher (copy it to `/3ds/` on the SD card), and soon
-`timetrv3ds.cia` (install with FBI). No compiler, Ghidra or devkitPro needed. It checks your files and
+Output: `out/timetrv3ds.3dsx` for the Homebrew Launcher (copy it to `/3ds/` on the SD card) and
+`out/timetrv3ds.cia` (install with FBI; written when `makerom` is installed). No compiler, Ghidra or devkitPro needed. It checks your files and
 tools first and says plainly what is missing. The footage encode is the slow part; stop it any time and
 run it again to carry on.
 
 Status: the `.3dsx` patcher works today as `tools/patcher.py` (Python 3.13 with `requirements.txt`, or
-`make patch` in a developer setup). The `.cia` and a download that needs no Python are next
+`make patch` in a developer setup). A download that needs no Python, with a simple window, is next
 (`docs/PATCHER.md`).
 
 ## Work on it: developer setup

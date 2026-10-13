@@ -70,8 +70,9 @@ free to share), and the patcher adds the user's data to it:
 
 1. **patcher core**: `tools/romfs.py`, `tools/patcher.py` (checks, tables, encode, `.3dsx`). Done when
    its `.3dsx` matches `make release`'s RomFS and runs on the 3DS.
-2. **patcher cia**: RSF, title ID, generic icon and banner, the `makerom` call. Done when the `.cia`
-   installs with FBI and runs.
+2. **patcher cia**: done 2026-10-12. `port/3ds/cia/timetrv.rsf` (UniqueId `0xF7E51`, `mvd:STD` added),
+   `port/3ds/cia/banner.bnr` (our lettering, made once with bannertool), `tools/smdh.py` (icon, identical to
+   bannertool's), and the `makerom` call in `tools/patcher.py`.
 3. **patcher ci**: GitHub Actions for the code-only app and the PyInstaller executables, attached to a
    Release; README download and run steps.
 
