@@ -29,6 +29,7 @@ import encode_ld  # noqa: E402
 import extract_tables  # noqa: E402
 import pack_game  # noqa: E402
 import romfs  # noqa: E402
+import title_art  # noqa: E402
 
 ROM_NAME = "tt061891.bin"  # the program ROM inside MAME's timetrv.zip
 CHD_SHA1 = "8abb5e6aa58ab49477ef89f507264d35454f99d3"  # MAME timetrv.cpp:337, as make doctor checks
@@ -147,6 +148,9 @@ def main(argv=None):
         + ["--jobs", str(a.jobs)]
     )
     check_media.main([enc])
+
+    step("Title and menu screens (your laserdisc's pictures, our lettering)")
+    title_art.main([enc, os.path.join(ttg_dir, "art")])
 
     step("Writing the game")
     folder = game_folder(work, ttg_dir, enc)
