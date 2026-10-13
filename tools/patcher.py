@@ -3,8 +3,9 @@
 
     .venv/bin/python -I tools/patcher.py --rom timetrv.zip --chd timetrv.chd [--out out]
 
-Writes OUT/timetrv3ds.3dsx (Homebrew Launcher). Work files go to OUT/work; run it again after an
-interruption and it carries on where the encode stopped.
+Writes OUT/timetrv3ds.3dsx (Homebrew Launcher) and, when makerom is installed, OUT/timetrv3ds.cia
+(install with FBI). Work files go to OUT/work; run it again after an interruption and it carries on
+where the encode stopped.
 
 Needs chdman (MAME's tools) and ffmpeg with libx264 on the PATH. The decoded game (data/), the
 encoder settings and the code-only app ship with the patcher; nothing from the ROM or the laserdisc
@@ -29,12 +30,15 @@ import encode_ld  # noqa: E402
 import extract_tables  # noqa: E402
 import pack_game  # noqa: E402
 import romfs  # noqa: E402
+import smdh  # noqa: E402
 import title_art  # noqa: E402
 
 ROM_NAME = "tt061891.bin"  # the program ROM inside MAME's timetrv.zip
 CHD_SHA1 = "8abb5e6aa58ab49477ef89f507264d35454f99d3"  # MAME timetrv.cpp:337, as make doctor checks
 # The code-only app: shipped next to the patcher (app/), or the developer's own build.
 APP_PLACES = [os.path.join(ROOT, "app", "timetrv3ds.3dsx"), os.path.join(ROOT, "port", "3ds", "timetrv3ds.3dsx")]
+CIA_DIR = os.path.join(ROOT, "port", "3ds", "cia")  # timetrv.rsf (makerom settings) and banner.bnr
+MAKEROM_HELP = "makerom not found: the .cia is skipped (get makerom from github.com/3DSGuy/Project_CTR releases)"
 
 
 def step(text):
@@ -93,6 +97,26 @@ def find_app(arg):
     sys.exit("the code-only app (app/timetrv3ds.3dsx) is missing: get it from the release, or run make 3ds")
 
 
+def with_icon(app, icon):
+    """The .3dsx with its SMDH (icon and titles) replaced by ours, so it never carries a local icon."""
+    off, size = struct.unpack_from("<II", app, 0x20)
+    assert size == len(icon), "unexpected SMDH size in the app"
+    return app[:off] + icon + app[off + size :]
+
+
+def make_cia(app_path, folder, icon_path, out):
+    """makerom: the app's .elf (next to the .3dsx), our RSF, icon and banner, and the game folder as RomFS."""
+    elf = os.path.splitext(app_path)[0] + ".elf"
+    if not os.path.isfile(elf):
+        sys.exit(f"{elf} is missing: the .cia is built from the app's .elf")
+    cmd = ["makerom", "-f", "cia", "-o", out, "-target", "t", "-exefslogo", "-elf", elf]
+    cmd += ["-rsf", os.path.join(CIA_DIR, "timetrv.rsf"), "-icon", icon_path]
+    cmd += ["-banner", os.path.join(CIA_DIR, "banner.bnr"), f"-DAPP_ROMFS={os.path.abspath(folder)}"]
+    r = subprocess.run(cmd, capture_output=True, text=True)
+    if r.returncode != 0 or not os.path.isfile(out):
+        sys.exit("makerom failed:\n" + r.stdout + r.stderr)
+
+
 def link(src, dst):
     """dst as a hard link to src (no copy), or a copy where links are not possible."""
     if os.path.exists(dst):
@@ -127,6 +151,9 @@ def main(argv=None):
     problems = missing_tools()
     if problems:
         sys.exit("Can't build yet:\n  " + "\n  ".join(problems))
+    cia = shutil.which("makerom") is not None
+    if not cia:
+        print(MAKEROM_HELP)
     rom = read_rom(a.rom)
     check_chd(a.chd)
     app_path, app = find_app(a.app)
@@ -154,11 +181,21 @@ def main(argv=None):
 
     step("Writing the game")
     folder = game_folder(work, ttg_dir, enc)
+    icon = smdh.build(title_art.icon())
+    icon_path = os.path.join(work, "icon.smdh")
+    with open(icon_path, "wb") as f:
+        f.write(icon)
     out = os.path.join(a.out, "timetrv3ds.3dsx")
     with open(out, "wb") as f:
-        f.write(romfs.attach(app, romfs.build(folder)))
-    print(f"{out}: {os.path.getsize(out) / 1e6:.0f} MB in {(time.time() - t0) / 60:.0f} min")
-    print("Copy it to /3ds/ on the SD card and start it from the Homebrew Launcher.")
+        f.write(romfs.attach(with_icon(app, icon), romfs.build(folder)))
+    print(
+        f"{out}: {os.path.getsize(out) / 1e6:.0f} MB  (copy to /3ds/ on the SD card, start from the Homebrew Launcher)"
+    )
+    if cia:
+        out = os.path.join(a.out, "timetrv3ds.cia")
+        make_cia(app_path, folder, icon_path, out)
+        print(f"{out}: {os.path.getsize(out) / 1e6:.0f} MB  (install with FBI)")
+    print(f"Done in {(time.time() - t0) / 60:.0f} min.")
 
 
 if __name__ == "__main__":

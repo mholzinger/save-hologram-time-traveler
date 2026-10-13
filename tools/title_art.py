@@ -99,6 +99,36 @@ def screens(enc):
     return {"splash": top, "splash_bottom": bottom, "menu": menu}
 
 
+def icon():
+    """48x48 home-menu icon: our lettering only, the same for every player (no footage)."""
+    im = Image.new("RGBA", (48, 48), (0, 0, 0, 255))
+    d = ImageDraw.Draw(im)
+    d.polygon([(0, 38), (48, 24), (48, 28), (0, 42)], fill=MAGENTA)
+    size = 60
+    while size > 8:  # fit the letters' drawn box, not the font size (the script's strokes run long)
+        f = ImageFont.truetype(FONT, size)
+        x0, y0, x1, y1 = d.textbbox((0, 0), "TT", font=f)
+        if x1 - x0 <= 40 and y1 - y0 <= 36:
+            break
+        size -= 1
+    x, y = 24 - (x0 + x1) / 2, 22 - (y0 + y1) / 2
+    d.text((x + 2, y + 2), "TT", font=f, fill=SHADOW)
+    d.text((x, y), "TT", font=f, fill=WHITE)
+    return im
+
+
+def banner():
+    """256x128 home-menu banner (made into banner.bnr once with bannertool): our lettering only."""
+    im = fade(256, 128, 60)
+    d = ImageDraw.Draw(im)
+    size = 20
+    while size > 6 and d.textlength(TAG, font=ImageFont.truetype(TAG_FONT, size)) > 236:
+        size -= 1
+    d.text((128, 12), TAG, font=ImageFont.truetype(TAG_FONT, size), fill=MAGENTA, anchor="mm")
+    title(im, 128, 82, 236)
+    return im
+
+
 def main(argv=None):
     argv = sys.argv[1:] if argv is None else argv
     enc, out = argv[0], argv[1]
