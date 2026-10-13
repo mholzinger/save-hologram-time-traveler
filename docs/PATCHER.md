@@ -73,8 +73,10 @@ free to share), and the patcher adds the user's data to it:
 2. **patcher cia**: done 2026-10-12. `port/3ds/cia/timetrv.rsf` (UniqueId `0xF7E51`, `mvd:STD` added),
    `port/3ds/cia/banner.bnr` (our lettering, made once with bannertool), `tools/smdh.py` (icon, identical to
    bannertool's), and the `makerom` call in `tools/patcher.py`.
-3. **patcher ci**: GitHub Actions for the code-only app and the PyInstaller executables, attached to a
-   Release; README download and run steps.
+3. **patcher ci**: done 2026-10-12. `tools/patcher_gui.py` (one window, tkinter bundled by PyInstaller),
+   `tools/build_patcher.py`, `.github/workflows/release.yml`: the app in devkitPro's container, then the
+   patcher for windows-x64, linux-x64, macos-arm64 and macos-x64, each self-tested headless; a `v*` tag
+   publishes them as a GitHub Release.
 
 Measured 2026-10-12: a full run from scratch took 2.5 min on an Apple M4 (10 cores, `--jobs 10`). Slower
 machines scale roughly with core count. Step 1 is done: `tools/patcher.py` (`make patch`), its RomFS

@@ -19,18 +19,27 @@ You can't build the game unless you have all of these:
 | `ffmpeg` with libx264 | encodes the footage for the 3DS | ffmpeg.org, Homebrew, your Linux package manager |
 | `makerom` | only for the `.cia` | github.com/3DSGuy/Project_CTR releases |
 
-```
-timetrv-patcher --rom timetrv.zip --chd timetrv.chd --out out
-```
+### Steps
 
-Output: `out/timetrv3ds.3dsx` for the Homebrew Launcher (copy it to `/3ds/` on the SD card) and
-`out/timetrv3ds.cia` (install with FBI; written when `makerom` is installed). No compiler, Ghidra or devkitPro needed. It checks your files and
-tools first and says plainly what is missing. The footage encode is the slow part; stop it any time and
-run it again to carry on.
+1. Download the patcher for your computer from the [Releases](https://github.com/mholzinger/save-hologram-time-traveler/releases)
+   page: `windows-x64`, `linux-x64`, `macos-arm64` (Apple silicon) or `macos-x64` (Intel Mac).
+2. Install `chdman`, `ffmpeg` and (for the `.cia`) `makerom`, or put them in the same folder as the patcher.
+3. Open the patcher, choose `timetrv.zip`, `timetrv.chd` and an output folder, and press **Build the game**.
+   It checks your files and tools first and says plainly what is missing. A full build takes a few minutes;
+   stop it any time and press Build again to carry on.
+4. Copy `timetrv3ds.3dsx` to `/3ds/` on the SD card (Homebrew Launcher), or install `timetrv3ds.cia` with FBI.
 
-Status: the `.3dsx` patcher works today as `tools/patcher.py` (Python 3.13 with `requirements.txt`, or
-`make patch` in a developer setup). A download that needs no Python, with a simple window, is next
-(`docs/PATCHER.md`).
+First run on each system:
+- **macOS:** the app is not notarized. Right-click it and choose Open, or run
+  `xattr -dr com.apple.quarantine timetrv-patcher.app` once.
+- **Windows:** SmartScreen may warn about an unknown publisher: More info, then Run anyway.
+- **Linux:** `chmod +x timetrv-patcher`, then run it from your desktop or a terminal.
+
+The same program also runs without a window:
+`timetrv-patcher --rom timetrv.zip --chd timetrv.chd --out out`.
+
+The splash and menu screens are made on your machine from your own laserdisc's pictures plus our
+lettering; the icon and banner are our lettering only. No Sega artwork is included.
 
 ## Work on it: developer setup
 
