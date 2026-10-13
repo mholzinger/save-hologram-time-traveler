@@ -112,10 +112,7 @@ void art_splash(void)
     for (int k = 0; k < 2; k++) {
         art_top(top);
         art_bottom(bot);
-        if (!bot) {   // no art: a plain black screen with the title
-            art_text(160 - 8 * 8, 104, "TIME TRAVELER 3D", 0xE0, 0xE0, 0xE0);
-            art_text(160 - 11 * 4, 124, "(no splash art)", 0x70, 0x70, 0x70);
-        }
+        if (!bot) art_text(160 - 8 * 8, 116, "TIME TRAVELER 3D", 0xE0, 0xE0, 0xE0);   // no art: the title on black
         art_present();
     }
     u64 end = osGetTime() + 2000;
