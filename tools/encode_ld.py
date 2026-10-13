@@ -31,7 +31,8 @@ import numpy as np
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import ROOT, load_json  # noqa: E402
 
-CHD = os.path.join(ROOT, "rom", "timetrv.chd")
+CHD = os.path.join(ROOT, "rom", "timetrv.chd")  # --chd
+TMP = os.path.join(ROOT, "video", "source", "chd")  # --tmp: one extracted AVI per clip while it encodes
 W, H = 320, 240
 
 
@@ -87,7 +88,7 @@ def map_ranges():
 def encode(cid, clip, out, parallax, key, crf):
     s, e = clip["start"], clip["stop"]
     n = e - s + 1
-    tmp = os.path.join(ROOT, "video", "source", "chd", f"enc_{cid}.avi")
+    tmp = os.path.join(TMP, f"enc_{cid}.avi")
     os.makedirs(os.path.dirname(tmp), exist_ok=True)
     # ROM frame n is disc picture n + 1: MAME's LD-V4200 searches to value + 1 and stops at value + 1
     # (reference/mame/ldv4200hle.cpp:623, :488). The Time Map art confirms it: ROM still 26425 is
@@ -271,7 +272,8 @@ def encode(cid, clip, out, parallax, key, crf):
     }
 
 
-def main():
+def main(argv=None):
+    global CHD, TMP
     ap = argparse.ArgumentParser()
     ap.add_argument("clips", nargs="*", type=int)
     ap.add_argument("--all", action="store_true", help="every clip the game uses (data/game.json)")
@@ -283,9 +285,12 @@ def main():
     ap.add_argument("--key", type=float, default=0.10)
     ap.add_argument("--crf", type=int, default=23)
     ap.add_argument("--out", default=os.path.join(ROOT, "build", "enc_ld"))
-    a = ap.parse_args()
+    ap.add_argument("--chd", default=CHD, help="the laserdisc image (default rom/timetrv.chd)")
+    ap.add_argument("--tmp", default=TMP, help="folder for the per-clip AVIs chdman extracts")
+    a = ap.parse_args(argv)
+    CHD, TMP = a.chd, a.tmp
     if not os.path.exists(CHD):
-        sys.exit("rom/timetrv.chd missing")
+        sys.exit(f"{CHD} missing")
     clips = {c["id"]: c for c in load_json(os.path.join(ROOT, "data", "clips.json"))["records"]}
     want = list(a.clips)
     if a.all:

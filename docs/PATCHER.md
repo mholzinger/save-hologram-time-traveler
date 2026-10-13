@@ -75,4 +75,6 @@ free to share), and the patcher adds the user's data to it:
 3. **patcher ci**: GitHub Actions for the code-only app and the PyInstaller executables, attached to a
    Release; README download and run steps.
 
-Open: how long the encode takes on a typical machine (UNVERIFIED; measure in step 1).
+Measured 2026-10-12: a full run from scratch took 2.5 min on an Apple M4 (10 cores, `--jobs 10`). Slower
+machines scale roughly with core count. Step 1 is done: `tools/patcher.py` (`make patch`), its RomFS
+byte-identical to `3dsxtool`'s.

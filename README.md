@@ -19,9 +19,18 @@ You can't build the game unless you have all of these:
 | `ffmpeg` with libx264 | encodes the footage for the 3DS | ffmpeg.org, Homebrew, your Linux package manager |
 | `makerom` | only for the `.cia` | github.com/3DSGuy/Project_CTR releases |
 
-Output: `timetrv3ds.3dsx` (Homebrew Launcher) and `timetrv3ds.cia` (install with FBI). No compiler,
-Python, Ghidra or devkitPro needed. Status: the patcher is being built (`docs/PATCHER.md`); until its
-first release, building takes the developer setup below.
+```
+timetrv-patcher --rom timetrv.zip --chd timetrv.chd --out out
+```
+
+Output: `out/timetrv3ds.3dsx` for the Homebrew Launcher (copy it to `/3ds/` on the SD card), and soon
+`timetrv3ds.cia` (install with FBI). No compiler, Ghidra or devkitPro needed. It checks your files and
+tools first and says plainly what is missing. The footage encode is the slow part; stop it any time and
+run it again to carry on.
+
+Status: the `.3dsx` patcher works today as `tools/patcher.py` (Python 3.13 with `requirements.txt`, or
+`make patch` in a developer setup). The `.cia` and a download that needs no Python are next
+(`docs/PATCHER.md`).
 
 ## Work on it: developer setup
 

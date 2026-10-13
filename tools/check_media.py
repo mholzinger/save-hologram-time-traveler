@@ -57,13 +57,14 @@ def stream_frames(path):
     return n
 
 
-def main():
-    if sys.argv[1:2] == ["--manifest"]:
-        with open(sys.argv[2], "w") as f:
+def main(argv=None):
+    argv = sys.argv[1:] if argv is None else argv
+    if argv[:1] == ["--manifest"]:
+        with open(argv[1], "w") as f:
             for n, frames in sorted(expected_frames().items()):
                 f.write(f"{n} {frames}\n")
         return
-    enc = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "build", "enc_ld")
+    enc = argv[0] if argv else os.path.join(ROOT, "build", "enc_ld")
     have = set(os.listdir(enc)) if os.path.isdir(enc) else set()
     clips = game_clips()
     need = [f"clip{c:03d}{x}" for c in clips for x in (".h264", ".wav")]

@@ -83,7 +83,7 @@ TONE_FN = {"DA9D:0002": 0, "DA9D:0027": 1, "DA9D:004C": 2, "DA9D:0086": 3, "DA9D
 # DA9D:0EF8, replay_from C40B:0889 (docs/ROM_FINDINGS.md "Remaining table-action targets").
 BEEP_FIRST = {"D659:000C", "D659:0041", "D659:0086", "D659:00C8", "DA9D:0EF8", "C40B:0889", "DA9D:0E6D"}
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import load_json  # noqa: E402
+from common import ROOT, load_json  # noqa: E402
 import sim  # noqa: E402
 
 
@@ -142,8 +142,10 @@ def builtin_op(code, phase):
     return OP["none"], 0, 0
 
 
-def main():
-    d, out = sys.argv[1], sys.argv[2]
+def main(argv=None):
+    """pack_game.py DATA_DIR OUT.ttg [LED_MESSAGES.json] (default build/led_messages.json)."""
+    argv = sys.argv[1:] if argv is None else argv
+    d, out = argv[0], argv[1]
     g = load_json(os.path.join(d, "game.json"))
     eps, rules = [], []
 
@@ -254,7 +256,7 @@ def main():
         + struct.pack("<H", len(tmap))
         + b"".join(tmap)
     )
-    led = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "build", "led_messages.json")
+    led = argv[2] if len(argv) > 2 else os.path.join(ROOT, "build", "led_messages.json")
     if not os.path.exists(led):
         sys.exit(f"missing {led}: run make tables first (tools/extract_tables.py writes the LED text)")
     with open(led) as f:

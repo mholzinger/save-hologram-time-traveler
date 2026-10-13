@@ -271,6 +271,19 @@ def read_slot_weights(rom):
     return slot_weights
 
 
+def led_json(rom):
+    """build/led_messages.json: the LED text tools/pack_game.py packs (also written by tools/patcher.py)."""
+    msgs, strings, eras, hof = read_led(rom)
+    return {
+        "source": f"ROM {LED_MESSAGES:05X} (C52E:0008), 10-byte records, read by D47D:009A; "
+        "text from the DGROUP image at DBE1:0000",
+        "records": msgs,
+        "strings": strings,
+        "eras": eras,
+        "hall_of_fame": hof,
+    }
+
+
 # ---- main: read every table, write data/*.json (and the LED text to build/) ---------------------------------------
 
 
@@ -355,21 +368,9 @@ def main():
     )
 
     # The LED text is the ROM's own wording, so it goes to build/ (ignored), not data/.
-    msgs, strings, eras, hof = read_led(rom)
     build = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "build")
     os.makedirs(build, exist_ok=True)
-    write_json(
-        build,
-        "led_messages.json",
-        {
-            "source": f"ROM {LED_MESSAGES:05X} (C52E:0008), 10-byte records, read by D47D:009A; "
-            "text from the DGROUP image at DBE1:0000",
-            "records": msgs,
-            "strings": strings,
-            "eras": eras,
-            "hall_of_fame": hof,
-        },
-    )
+    write_json(build, "led_messages.json", led_json(rom))
 
     sounds = read_sounds(rom)
     write_json(

@@ -10,7 +10,7 @@ ROM_ZIP   ?= ../timetrv.zip
 ROM       := rom/tt061891.bin
 ROM_SHA1  := 7c5003b6d3df1e472db45abd725e7d3d43f0dfb4
 
-.PHONY: help test format format-check art log release run game doctor encode check-media rom verify disasm tables check-labels pack stage 3ds-syntax ghidra-import ghidra-labels ghidra-decomp ghidra-gui 3ds deploy deploy-app clean
+.PHONY: help patch test format format-check art log release run game doctor encode check-media rom verify disasm tables check-labels pack stage 3ds-syntax ghidra-import ghidra-labels ghidra-decomp ghidra-gui 3ds deploy deploy-app clean
 
 help:
 	@echo "make rom            unzip $(ROM_ZIP) into rom/ and verify SHA1"
@@ -34,6 +34,7 @@ help:
 	@echo "make encode         encode every clip and segment from the CHD into build/enc_ld (skipped when up to date)"
 	@echo "make art            cut and convert the local art (docs/ART.md; never committed or shipped)"
 	@echo "make log            fetch the last game's play log from the 3DS (ftpd) to build/log.txt and show it"
+	@echo "make patch          the patcher as players run it: $(ROM_ZIP) + rom/timetrv.chd -> out/timetrv3ds.3dsx"
 	@echo "make release        one-file test build: build/release/timetrv3ds.3dsx with all data in RomFS"
 
 # The program ROM: rom/tt061891.bin, unzipped from ../timetrv.zip when it is not already there.
@@ -138,6 +139,10 @@ encode:
 
 check-media:
 	$(PY) tools/check_media.py
+
+# The patcher as a player runs it (docs/PATCHER.md): the ROM zip and the CHD in, out/timetrv3ds.3dsx out.
+patch: 3ds
+	$(PY) tools/patcher.py --rom $(ROM_ZIP) --chd rom/timetrv.chd --out out
 
 game: doctor rom tables encode 3ds stage release
 	@echo "game: build/release/timetrv3ds.3dsx (copy to /3ds/ on the SD card)"

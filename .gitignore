@@ -48,3 +48,6 @@ port/3ds/host/*.dSYM/
 # Machine-specific make settings, and local reference images (third-party photos never go in git)
 local.mk
 images/
+
+# Patcher output (make patch)
+/out/
