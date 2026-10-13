@@ -4,22 +4,31 @@ Reverse engineering of *Time Traveler* (Sega / Virtual Image Productions, 1991, 
 
 No ROM, laserdisc or DVD content is distributed in this repository. You need your own program ROM `tt061891.bin` and laserdisc image `timetrv.chd` (MAME set `timetrv`).
 
-## Requirements
+## Play it: bring the ingredients, the patcher builds the game
+
+The reverse engineering is done. Every scene, input window, rule and laserdisc frame offset is already
+decoded and ships with the patcher. You only supply the arcade files; the patcher turns them into a 3DS
+game on your machine.
 
 You can't build the game unless you have all of these:
 
-| What | Why | Get it |
+| Ingredient | Why | Get it |
 |---|---|---|
 | `timetrv.zip` (program ROM `tt061891.bin`) and `timetrv.chd` (laserdisc) | the game itself | your own MAME set `timetrv`; never included here |
-| Python 3.13 and `requirements.txt` | every build tool | python.org, then `pip install -r requirements.txt` |
 | `chdman` | reads the laserdisc image | MAME's tools (`brew install mame`, the MAME Windows package, `mame-tools` on Linux) |
 | `ffmpeg` with libx264 | encodes the footage for the 3DS | ffmpeg.org, Homebrew, your Linux package manager |
-| devkitPro `3ds-dev` | compiles the 3DS app (`make game`) | devkitpro.org |
+| `makerom` | only for the `.cia` | github.com/3DSGuy/Project_CTR releases |
 
-`make doctor` checks all of them and names what is missing. A patcher that needs no compiler and also
-writes a `.cia` is in progress: `docs/PATCHER.md`.
+Output: `timetrv3ds.3dsx` (Homebrew Launcher) and `timetrv3ds.cia` (install with FBI). No compiler,
+Python, Ghidra or devkitPro needed. Status: the patcher is being built (`docs/PATCHER.md`); until its
+first release, building takes the developer setup below.
 
-## Quick start
+## Work on it: developer setup
+
+Python 3.13 with `requirements.txt` and devkitPro `3ds-dev`, plus the ingredients above. Ghidra only if
+you dig into the ROM itself. `make doctor` checks all of it and names what is missing.
+
+### Quick start
 
 ```
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
