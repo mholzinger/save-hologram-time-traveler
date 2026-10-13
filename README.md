@@ -61,7 +61,7 @@ BSD 3-Clause, see `LICENSE`. It covers this repository's code and data only.
 
 - `reference/mame/`: files from MAME, under their own headers (BSD-3-Clause; `timetrv.lay` CC0-1.0).
   `port/3ds/source/led.c` uses the LED glyph table from MAME's `timetrv.cpp` (BSD-3-Clause).
-- `tools/fonts/MrDafoe-Regular.ttf`: Mr Dafoe by Alejandro Paul, SIL Open Font License 1.1 (`tools/fonts/OFL.txt`);
-  the title lettering on the splash and menu.
+- `tools/fonts/`: Mr Dafoe (Alejandro Paul) for the title and Michroma (Vernon Adams) for the tagline, both
+  SIL Open Font License 1.1 (`tools/fonts/OFL-*.txt`).
 - *Time Traveler*, Sega and Hologram are trademarks of their owners. This project is not affiliated with
   or endorsed by them, and it contains none of their ROM, laserdisc, DVD or artwork.

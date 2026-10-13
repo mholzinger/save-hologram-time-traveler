@@ -6,7 +6,8 @@
 ENC_DIR holds the encodes (tools/encode_ld.py writes a middle frame of each clip, clipNNN_mid.png).
 Writes OUT_DIR/splash.bgr, splash_bottom.bgr and menu.bgr, the raw screens port/3ds/source/art.c loads.
 Nothing here is Sega's artwork: the pictures come from the user's disc on their machine, and the title is
-set in Mr Dafoe (SIL Open Font License, tools/fonts/OFL.txt) with our own swoosh.
+set in Mr Dafoe and the tagline in Michroma (both SIL Open Font License, tools/fonts/OFL-*.txt), with our
+own swoosh.
 """
 
 import os
@@ -17,7 +18,10 @@ from PIL import Image, ImageDraw, ImageEnhance, ImageFont
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from art_convert import fb_bytes  # noqa: E402
 
-FONT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts", "MrDafoe-Regular.ttf")
+FONTS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts")
+FONT = os.path.join(FONTS, "MrDafoe-Regular.ttf")  # the title
+TAG_FONT = os.path.join(FONTS, "Michroma-Regular.ttf")  # the tagline
+TAG = "GENUINE ARCADE LASERDISC"
 SPLASH_CLIP = 34  # Marshal Gram and Kyi-La together (C1)
 MENU_CLIP = 2  # the Time Map's galaxy (attract)
 PIC_X0, PIC_W = 43, 320  # the picture inside an encode's left eye (encode_ld.py, port fe.h PIC_X0)
@@ -82,8 +86,10 @@ def screens(enc):
     top = fade(400, 240, 120)
     superimpose(top, picture(enc, SPLASH_CLIP), 40, 0)
     d = ImageDraw.Draw(top)
-    tag = ImageFont.truetype(FONT, 30)
-    d.text((200, 18), "Genuine Arcade Laserdisc", font=tag, fill=MAGENTA, anchor="mm")
+    size = 26
+    while size > 8 and d.textlength(TAG, font=ImageFont.truetype(TAG_FONT, size)) > 360:
+        size -= 1
+    d.text((200, 18), TAG, font=ImageFont.truetype(TAG_FONT, size), fill=MAGENTA, anchor="mm")
     title(top, 200, 206, 330)
     galaxy = picture(enc, MENU_CLIP)
     bottom = ImageEnhance.Brightness(galaxy).enhance(0.8)
