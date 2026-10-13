@@ -12,7 +12,7 @@ set in Mr Dafoe (SIL Open Font License, tools/fonts/OFL.txt) with our own swoosh
 import os
 import sys
 
-from PIL import Image, ImageDraw, ImageEnhance, ImageFont
+from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFont
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from art_convert import fb_bytes  # noqa: E402
@@ -62,9 +62,28 @@ def title(im, cx, cy, width):
         x += wl + gap
 
 
+def fade(w, h, to):
+    """White at the top fading to black by row `to`."""
+    im = Image.new("RGB", (w, h))
+    d = ImageDraw.Draw(im)
+    for y in range(min(to, h)):
+        v = round(255 * (1 - y / to) ** 1.6)
+        d.line([(0, y), (w, y)], fill=(v, v, v))
+    return im
+
+
+def superimpose(bg, pic, x, y):
+    """The laserdisc picture over bg, its black see-through (the footage is keyed to black)."""
+    lum = pic.convert("L").point(lambda v: min(255, max(0, (v - 12) * 6)))
+    bg.paste(pic, (x, y), lum)
+
+
 def screens(enc):
-    top = Image.new("RGB", (400, 240))
-    top.paste(picture(enc, SPLASH_CLIP), (40, 0))
+    top = fade(400, 240, 120)
+    superimpose(top, picture(enc, SPLASH_CLIP), 40, 0)
+    d = ImageDraw.Draw(top)
+    tag = ImageFont.truetype(FONT, 30)
+    d.text((200, 18), "Genuine Arcade Laserdisc", font=tag, fill=MAGENTA, anchor="mm")
     title(top, 200, 206, 330)
     galaxy = picture(enc, MENU_CLIP)
     bottom = ImageEnhance.Brightness(galaxy).enhance(0.8)
