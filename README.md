@@ -4,6 +4,21 @@ Reverse engineering of *Time Traveler* (Sega / Virtual Image Productions, 1991, 
 
 No ROM, laserdisc or DVD content is distributed in this repository. You need your own program ROM `tt061891.bin` and laserdisc image `timetrv.chd` (MAME set `timetrv`).
 
+## Requirements
+
+You can't build the game unless you have all of these:
+
+| What | Why | Get it |
+|---|---|---|
+| `timetrv.zip` (program ROM `tt061891.bin`) and `timetrv.chd` (laserdisc) | the game itself | your own MAME set `timetrv`; never included here |
+| Python 3.13 and `requirements.txt` | every build tool | python.org, then `pip install -r requirements.txt` |
+| `chdman` | reads the laserdisc image | MAME's tools (`brew install mame`, the MAME Windows package, `mame-tools` on Linux) |
+| `ffmpeg` with libx264 | encodes the footage for the 3DS | ffmpeg.org, Homebrew, your Linux package manager |
+| devkitPro `3ds-dev` | compiles the 3DS app (`make game`) | devkitpro.org |
+
+`make doctor` checks all of them and names what is missing. A patcher that needs no compiler and also
+writes a `.cia` is in progress: `docs/PATCHER.md`.
+
 ## Quick start
 
 ```
