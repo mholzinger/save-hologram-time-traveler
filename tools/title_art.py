@@ -17,8 +17,9 @@ from PIL import Image, ImageDraw, ImageEnhance, ImageFont
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from art_convert import fb_bytes  # noqa: E402
+from common import ROOT  # noqa: E402
 
-FONTS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts")
+FONTS = os.path.join(ROOT, "tools", "fonts")
 FONT = os.path.join(FONTS, "MrDafoe-Regular.ttf")  # the title
 TAG_FONT = os.path.join(FONTS, "Michroma-Regular.ttf")  # the tagline
 TAG = "GENUINE ARCADE LASERDISC"

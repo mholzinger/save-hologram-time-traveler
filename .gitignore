@@ -51,3 +51,6 @@ images/
 
 # Patcher output (make patch)
 /out/
+
+# The one-file patcher (tools/build_patcher.py)
+/dist/

@@ -45,6 +45,13 @@ def step(text):
     print(f"\n== {text}", flush=True)
 
 
+def find_tools_too_in(*dirs):
+    """Also look for chdman, ffmpeg and makerom in these folders: next to the patcher (players can drop
+    them there) and, on macOS, Homebrew's (an app started from Finder does not get the shell's PATH)."""
+    extra = [d for d in dirs if d and os.path.isdir(d)]
+    os.environ["PATH"] = os.pathsep.join(extra + [os.environ.get("PATH", "")])
+
+
 def missing_tools():
     """What is not installed, as lines to show the user (empty when all is there)."""
     out = []
@@ -148,6 +155,9 @@ def main(argv=None):
     t0 = time.time()
 
     step("Checking what you have")
+    here = os.path.dirname(os.path.abspath(sys.executable if getattr(sys, "frozen", False) else __file__))
+    app_dir = os.path.dirname(os.path.dirname(os.path.dirname(here))) if here.endswith("Contents/MacOS") else None
+    find_tools_too_in(here, app_dir, "/opt/homebrew/bin", "/usr/local/bin")
     problems = missing_tools()
     if problems:
         sys.exit("Can't build yet:\n  " + "\n  ".join(problems))

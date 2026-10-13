@@ -1,0 +1,106 @@
+# The patcher players download: the code-only 3DS app built with devkitPro, then the one-file patcher
+# (window + command line) for Windows, Linux and macOS, each started once headless before it ships.
+# A v* tag publishes a GitHub Release with all of it; a manual run (Actions > Release > Run workflow)
+# only builds and keeps the files as run artifacts. Modelled on intv2convert's release workflow.
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  app:
+    name: 3DS app (code only)
+    runs-on: ubuntu-latest
+    container: devkitpro/devkitarm:latest
+    steps:
+      - uses: actions/checkout@v4
+      # No build/art here, so the app carries libctru's placeholder icon; the patcher puts ours in.
+      - run: make -C port/3ds
+      - uses: actions/upload-artifact@v4
+        with:
+          name: app
+          path: |
+            port/3ds/timetrv3ds.3dsx
+            port/3ds/timetrv3ds.elf
+
+  patcher:
+    name: Patcher (${{ matrix.asset }})
+    needs: app
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            asset: windows-x64
+          - os: ubuntu-22.04 # an older glibc, so the binary runs on more Linux installs
+            asset: linux-x64
+          - os: macos-latest
+            asset: macos-arm64
+          - os: macos-13
+            asset: macos-x64
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: app
+          path: app
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install -r requirements-patcher.txt
+      - run: python tools/build_patcher.py app
+
+      - name: Self-test (Linux, no display)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y --no-install-recommends xvfb
+          xvfb-run -a dist/timetrv-patcher --selftest
+      - name: Self-test (macOS)
+        if: runner.os == 'macOS'
+        run: dist/timetrv-patcher.app/Contents/MacOS/timetrv-patcher --selftest
+      - name: Self-test (Windows)
+        if: runner.os == 'Windows'
+        shell: cmd # cmd, not PowerShell, for a plain exit code (intv2convert's lesson)
+        run: dist\timetrv-patcher.exe --selftest
+
+      - name: Package (Windows)
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: Compress-Archive -Path dist/timetrv-patcher.exe -DestinationPath timetrv-patcher-${{ matrix.asset }}.zip
+      - name: Package (Linux)
+        if: runner.os == 'Linux'
+        run: tar -czf timetrv-patcher-${{ matrix.asset }}.tar.gz -C dist timetrv-patcher
+      - name: Package (macOS)
+        if: runner.os == 'macOS'
+        run: ditto -c -k --keepParent dist/timetrv-patcher.app timetrv-patcher-${{ matrix.asset }}.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: timetrv-patcher-${{ matrix.asset }}
+          path: timetrv-patcher-${{ matrix.asset }}.*
+
+  release:
+    name: GitHub Release
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: patcher
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+          pattern: timetrv-patcher-*
+          merge-multiple: true
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ github.ref_name }}" \
+            --title "Time Traveler 3DS patcher ${{ github.ref_name }}" \
+            --generate-notes \
+            dist/*

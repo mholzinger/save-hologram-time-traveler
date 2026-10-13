@@ -10,7 +10,7 @@ ROM_ZIP   ?= ../timetrv.zip
 ROM       := rom/tt061891.bin
 ROM_SHA1  := 7c5003b6d3df1e472db45abd725e7d3d43f0dfb4
 
-.PHONY: help patch test format format-check art log release run game doctor encode check-media rom verify disasm tables check-labels pack stage 3ds-syntax ghidra-import ghidra-labels ghidra-decomp ghidra-gui 3ds deploy deploy-app clean
+.PHONY: help patch patcher-exe test format format-check art log release run game doctor encode check-media rom verify disasm tables check-labels pack stage 3ds-syntax ghidra-import ghidra-labels ghidra-decomp ghidra-gui 3ds deploy deploy-app clean
 
 help:
 	@echo "make rom            unzip $(ROM_ZIP) into rom/ and verify SHA1"
@@ -143,6 +143,13 @@ check-media:
 # The patcher as a player runs it (docs/PATCHER.md): the ROM zip and the CHD in, out/timetrv3ds.3dsx out.
 patch: 3ds
 	$(PY) tools/patcher.py --rom $(ROM_ZIP) --chd rom/timetrv.chd --out out
+
+# The one-file patcher for this OS in dist/ (needs a Python with Tk and requirements-patcher.txt; the
+# GitHub release workflow builds all three OSes).
+patcher-exe: 3ds
+	rm -rf build/patcher-app && mkdir -p build/patcher-app
+	cp port/3ds/timetrv3ds.3dsx port/3ds/timetrv3ds.elf build/patcher-app/
+	$(PY) tools/build_patcher.py build/patcher-app
 
 game: doctor rom tables encode 3ds stage release
 	@echo "game: build/release/timetrv3ds.3dsx (copy to /3ds/ on the SD card)"

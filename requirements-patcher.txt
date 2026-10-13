@@ -1,0 +1,4 @@
+# The one-file patcher build (tools/build_patcher.py, .github/workflows/release.yml)
+numpy
+pillow
+pyinstaller==6.22.3
