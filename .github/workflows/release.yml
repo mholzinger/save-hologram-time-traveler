@@ -100,7 +100,40 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "${{ github.ref_name }}" \
+          # a tag with a hyphen (v0.1.0-beta.1) is published as a pre-release
+          pre=""; case "${{ github.ref_name }}" in *-*) pre="--prerelease" ;; esac
+          gh release create "${{ github.ref_name }}" $pre \
             --title "Time Traveler 3DS patcher ${{ github.ref_name }}" \
             --generate-notes \
             dist/*
+
+  # The same files go to itch.io, one channel per platform (itch tags the platform from the channel
+  # name). Each archive is pushed as-is inside its own folder, so the Mac .app keeps its permissions.
+  # Skips until BUTLER_API_KEY is set: gh secret set BUTLER_API_KEY (itch.io/user/settings/api-keys).
+  itch:
+    name: itch.io
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: patcher
+    runs-on: ubuntu-latest
+    env:
+      BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
+      ITCH_GAME: paisleyboxers/save-hologram-time-traveler
+    steps:
+      - uses: actions/download-artifact@v8
+        if: env.BUTLER_API_KEY != ''
+        with:
+          path: dist
+          pattern: timetrv-patcher-*
+          merge-multiple: true
+      - name: Push
+        if: env.BUTLER_API_KEY != ''
+        run: |
+          set -euo pipefail
+          curl -fsSL -o /tmp/butler.zip https://broth.itch.zone/butler/linux-amd64/LATEST/archive/default
+          unzip -qq /tmp/butler.zip -d /tmp/butler-bin && chmod +x /tmp/butler-bin/butler
+          for asset in windows-x64 linux-x64 macos-arm64 macos-x64; do
+            mkdir -p "push/$asset" && mv dist/timetrv-patcher-$asset.* "push/$asset/"
+            /tmp/butler-bin/butler push "push/$asset" "$ITCH_GAME:$asset" \
+              --userversion "${{ github.ref_name }}" --if-changed
+          done
+          /tmp/butler-bin/butler status "$ITCH_GAME"
