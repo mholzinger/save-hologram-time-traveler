@@ -27,9 +27,11 @@ AccessControlInfo:
   # Exheader Format Version
   DescVersion                   : 2
   
-  # Minimum Required Kernel Version (below is for 4.5.0)
+  # Minimum Required Kernel Version: 2.46 (9.0.0). The template's 2.33 (4.5.0) gets the old linear-memory
+  # mapping (0x14000000), and the New 3DS MVD module then faults reading our video buffers (seen on
+  # hardware 2026-10-15: data abort in mvd at 0x14BCAD81 when the first clip starts).
   ReleaseKernelMajor            : "02"
-  ReleaseKernelMinor            : "33" 
+  ReleaseKernelMinor            : "46"
 
   # ExtData
   UseExtSaveData                : false # enables ExtData       
