@@ -52,6 +52,20 @@ def find_tools_too_in(*dirs):
     os.environ["PATH"] = os.pathsep.join(extra + [os.environ.get("PATH", "")])
 
 
+def system_libraries_for_tools():
+    """In the Linux executable, PyInstaller points LD_LIBRARY_PATH at its own bundled libraries, and every
+    program we start would inherit that: the system ffmpeg then loads our copies, fails and prints nothing.
+    Put back the user's own value (PyInstaller keeps it in LD_LIBRARY_PATH_ORIG) before running any tool."""
+    if not getattr(sys, "frozen", False):
+        return
+    for var in ("LD_LIBRARY_PATH", "DYLD_LIBRARY_PATH"):
+        orig = os.environ.pop(var + "_ORIG", None)
+        if orig is not None:
+            os.environ[var] = orig
+        else:
+            os.environ.pop(var, None)
+
+
 def missing_tools():
     """What is not installed, as lines to show the user (empty when all is there)."""
     out = []
@@ -158,6 +172,7 @@ def main(argv=None):
     here = os.path.dirname(os.path.abspath(sys.executable if getattr(sys, "frozen", False) else __file__))
     app_dir = os.path.dirname(os.path.dirname(os.path.dirname(here))) if here.endswith("Contents/MacOS") else None
     find_tools_too_in(here, app_dir, "/opt/homebrew/bin", "/usr/local/bin")
+    system_libraries_for_tools()
     problems = missing_tools()
     if problems:
         sys.exit("Can't build yet:\n  " + "\n  ".join(problems))
