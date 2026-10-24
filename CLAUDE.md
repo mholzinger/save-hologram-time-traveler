@@ -62,7 +62,7 @@ make encode         # encode what is missing from the CHD into build/enc_ld
 make release        # one-file test build: build/release/timetrv3ds.3dsx, all data in RomFS (never shared)
 make art            # local art for splash/menu/icon (docs/ART.md; never committed)
 ```
-Mac tools: hdiutil, MKVToolNix, ffmpeg, aria2, chdman. Ghidra 11.2.1: set `GHIDRA_INSTALL_DIR` in `local.mk`. Python deps: `.venv/bin/pip install -r requirements.txt`.
+Mac tools: hdiutil, MKVToolNix, ffmpeg, aria2, chdman. Ghidra: shared install at `~/tools/ghidra/current` (11.2.1 or 12.2), set via `GHIDRA_INSTALL_DIR` in `local.mk`. Python deps: `.venv/bin/pip install -r requirements.txt`.
 
 ## Key facts (details and citations in ROM_FINDINGS.md)
 - CPU Intel 80188 @ 16 MHz; ROM 256 KB at `C0000–FFFFF`; reset `F000:FFF0` → `C000:0000`.
@@ -83,4 +83,5 @@ Mac tools: hdiutil, MKVToolNix, ffmpeg, aria2, chdman. Ghidra 11.2.1: set `GHIDR
   - Labels: `TimeTravelerLabels: applied 31, failed 0`.
   - Ghidra normalizes seg:off to segment `d000`/`c000` etc. in listings and decomp filenames: `D37E:03AB` shows as `d000:3b8b` (same linear `D3B8B`). Map back with linear = SEG×16 + OFF.
   - `make ghidra-decomp`: 407 functions, 404 ok, 3 failed (`d000:0556`, `d000:94f5`, `d000:9529`; AddressOutOfBounds in decompiler symbol mapping). `ld_search_play_to` decompiles.
+- Ghidra 12.2 verified 2026-10-24 on copies of the project: the three Java scripts run unchanged (Java needs no PyGhidra). Fresh import gives `TimeTravelerLabels: applied 112, failed 0` and `TimeTravelerModules: renamed 307, kept 100`, same as 11.2.1. Decomp is 404 ok, 3 failed (same three) and `INDEX.tsv` is byte-identical to 11.2.1, so `tools/check_labels.py` is unaffected. 102 of 404 C bodies differ: 66 only in type spelling and variable numbering, 36 with reordered branches or `CONCAT` forms of the same logic. 12.2 needs JDK 25 and self-built macOS natives (both handled by `ghidra-update`). Opening `build/ghidra/TimeTraveler.gpr` with 12.2 upgrades it one way.
 - Python: use the repo venv. `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`; the Makefile uses it automatically (`PY`).
