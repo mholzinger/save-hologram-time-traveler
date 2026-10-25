@@ -117,7 +117,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
-      ITCH_GAME: paisleyboxers/save-hologram-time-traveler
+      ITCH_GAME: paisleyboxers/save-time-traveler
     steps:
       - uses: actions/download-artifact@v8
         if: env.BUTLER_API_KEY != ''
@@ -133,7 +133,8 @@ jobs:
           unzip -qq /tmp/butler.zip -d /tmp/butler-bin && chmod +x /tmp/butler-bin/butler
           for asset in windows-x64 linux-x64 macos-arm64 macos-x64; do
             mkdir -p "push/$asset" && mv dist/timetrv-patcher-$asset.* "push/$asset/"
-            /tmp/butler-bin/butler push "push/$asset" "$ITCH_GAME:$asset" \
+            # channel names carry the target (3ds-...), so later patchers (saturn-..., segacd-...) share the page
+            /tmp/butler-bin/butler push "push/$asset" "$ITCH_GAME:3ds-$asset" \
               --userversion "${{ github.ref_name }}" --if-changed
           done
           /tmp/butler-bin/butler status "$ITCH_GAME"
