@@ -42,7 +42,7 @@ static void stage_test(void)
 // without it, the text console.
 enum { M_PLAY1, M_PLAY2, M_ATTRACT, M_SETTINGS, M_VIDEO, M_EXTRAS, M_EXIT, M_COUNT };
 static const char *const menu_items[M_COUNT] = {
-    "Play: 1 player", "Play: 2 players", "Attract mode", "Settings (DIPs)", "Video", "Extras", "Exit",
+    "Play: 1 player", "Play: 2 players", "Attract mode", "Arcade settings", "Video", "Extras", "Exit",
 };
 
 static void draw_menu(int sel)
@@ -56,7 +56,7 @@ static void draw_menu(int sel)
     }
     if (!menu) {
         consoleClear();
-        printf("Time Traveler 3DS (prototype)\n\n");
+        printf("Time Traveler 3DS\n\n");
         for (int i = 0; i < M_COUNT; i++) printf(" %c %s\n", i == sel ? '>' : ' ', menu_items[i]);
         printf("\n Up/Down choose, A select\n\n In game: L  debug panel\n          X  cabinet stage / flat\n");
         return;
@@ -69,7 +69,7 @@ static void draw_menu(int sel)
             if (i == sel) art_text(40, y, ">", 0xF0, 0x40, 0xA0);   // the logo's magenta
             art_text(56, y, menu_items[i], i == sel ? 0xFF : 0x90, i == sel ? 0xFF : 0x90, i == sel ? 0xFF : 0x90);
         }
-        art_text(24, y + 6, "In game: L debug   X stage/flat", 0xA0, 0xA0, 0xA0);
+        art_text(24, y + 6, "In game: X  stage on/off", 0xA0, 0xA0, 0xA0);
         art_present();
     }
 }
