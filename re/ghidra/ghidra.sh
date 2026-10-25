@@ -6,16 +6,21 @@
 #   re/ghidra/ghidra.sh decomp   # export decompiled C to build/ghidra/decomp/
 #   re/ghidra/ghidra.sh gui      # open the Ghidra GUI
 #
+# Ghidra is the shared install, run through ghidra-run (see ~/tools/ghidra/AGENTS.md). The
+# version comes from build/ghidra/.ghidra-version (the project's pin), so nothing has to be
+# set here; `ghidra-run --which build/ghidra` shows it.
+#
 # Env overrides:
-#   GHIDRA_INSTALL_DIR  the Ghidra 11.2.1 folder (required; local.mk can export it)
+#   GHIDRA_VERSION      e.g. ghidra_12.2_PUBLIC: run another install (a writable run on the
+#                       pinned project is refused: project DBs upgrade one way)
 #   TT_BASEADDR         default c000:0000 (real-mode seg:off). Verified accepted by
 #                       BinaryLoader in 11.2.1 (2026-10-06). 0xC0000 is the fallback.
 set -euo pipefail
 
 HERE="$(cd "$(dirname "$0")" && pwd)"
 ROOT="$(cd "$HERE/../.." && pwd)"
-GHIDRA_INSTALL_DIR="${GHIDRA_INSTALL_DIR:?set GHIDRA_INSTALL_DIR to the Ghidra 11.2.1 folder (local.mk)}"
-HEADLESS="$GHIDRA_INSTALL_DIR/support/analyzeHeadless"
+# make does not always see the login PATH, so fall back to the install's own bin/
+HEADLESS="$(command -v ghidra-run || echo "$HOME/tools/ghidra/bin/ghidra-run")"
 PROJ_DIR="$ROOT/build/ghidra"
 PROJ_NAME="TimeTraveler"
 ROM="$ROOT/rom/tt061891.bin"
@@ -23,7 +28,7 @@ SCRIPTS="$HERE/scripts"
 BASE="${TT_BASEADDR:-c000:0000}"
 LANG_ID="x86:LE:16:Real Mode"
 
-[ -x "$HEADLESS" ] || { echo "analyzeHeadless not found at $HEADLESS (set GHIDRA_INSTALL_DIR)"; exit 1; }
+[ -x "$HEADLESS" ] || { echo "ghidra-run not found at $HEADLESS (shared install: ~/tools/ghidra)"; exit 1; }
 mkdir -p "$PROJ_DIR"
 
 case "${1:-}" in
@@ -47,7 +52,7 @@ case "${1:-}" in
       -scriptPath "$SCRIPTS" -postScript ExportDecomp.java "$ROOT/build/ghidra/decomp"
     ;;
   gui)
-    exec "$GHIDRA_INSTALL_DIR/ghidraRun"
+    exec "$(dirname "$HEADLESS")/ghidra" "$PROJ_DIR/$PROJ_NAME.gpr"
     ;;
   *)
     sed -n '2,12p' "$0"; exit 2 ;;

@@ -21,8 +21,10 @@ Settings for your machine go in `local.mk` (not in git), for example:
 
 ```
 DS_HOST := 192.168.1.20:5000                      # the 3DS running ftpd, for make deploy / run / log
-export GHIDRA_INSTALL_DIR := $(HOME)/tools/ghidra/current
 ```
+
+Ghidra needs no setting: `re/ghidra/ghidra.sh` runs the shared install through `ghidra-run`
+(`~/tools/ghidra/AGENTS.md`), and the project's version is pinned in `build/ghidra/.ghidra-version`.
 
 ```
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt

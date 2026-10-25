@@ -62,7 +62,7 @@ make encode         # encode what is missing from the CHD into build/enc_ld
 make release        # one-file test build: build/release/timetrv3ds.3dsx, all data in RomFS (never shared)
 make art            # local art for splash/menu/icon (docs/ART.md; never committed)
 ```
-Mac tools: hdiutil, MKVToolNix, ffmpeg, aria2, chdman. Ghidra: shared install at `~/tools/ghidra/current` (11.2.1 or 12.2), set via `GHIDRA_INSTALL_DIR` in `local.mk`. Python deps: `.venv/bin/pip install -r requirements.txt`.
+Mac tools: hdiutil, MKVToolNix, ffmpeg, aria2, chdman. Ghidra: the shared install, run by `re/ghidra/ghidra.sh` through `ghidra-run` (`~/tools/ghidra/AGENTS.md`); the project is pinned to 11.2.1 in `build/ghidra/.ghidra-version`. Python deps: `.venv/bin/pip install -r requirements.txt`.
 
 ## Key facts (details and citations in ROM_FINDINGS.md)
 - CPU Intel 80188 @ 16 MHz; ROM 256 KB at `C0000–FFFFF`; reset `F000:FFF0` → `C000:0000`.

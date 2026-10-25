@@ -1,7 +1,7 @@
 # Time Traveler RE + 3DS port. Run from this directory.
 # Setup: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt (see README.md)
 
-# Machine-specific settings (DS_HOST, GHIDRA_INSTALL_DIR): local.mk, not in git.
+# Machine-specific settings (DS_HOST): local.mk, not in git. Ghidra needs none (ghidra-run).
 -include local.mk
 
 # Every tool runs isolated (-I) in the repo venv when there is one.
