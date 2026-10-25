@@ -15,7 +15,7 @@ timetrv-patcher --rom timetrv.zip --chd timetrv.chd --out out/
 | Need | For | Where |
 |---|---|---|
 | `timetrv.zip` (holds `tt061891.bin`) and `timetrv.chd` | the game | their own MAME set `timetrv` |
-| `chdman` | reading the laserdisc | MAME's tools (`brew install mame`, the MAME Windows package, `mame-tools` on Linux) |
+| `chdman` | reading the laserdisc | MAME's tools: `brew install rom-tools` (Mac), `mame-tools` (Linux), MAME's Windows x64 package |
 | `ffmpeg` with libx264 | encoding the footage for the 3DS | ffmpeg.org builds, Homebrew, the Linux package |
 | `makerom` | the `.cia` only | github.com/3DSGuy/Project_CTR releases (`makerom-v0.19.0` for Windows, macOS, Linux) |
 

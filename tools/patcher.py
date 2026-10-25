@@ -70,7 +70,7 @@ def missing_tools():
     """What is not installed, as lines to show the user (empty when all is there)."""
     out = []
     if not shutil.which("chdman"):
-        out.append("chdman not found: install MAME's tools (brew install mame, the MAME Windows package, mame-tools)")
+        out.append("chdman not found: put chdman next to the patcher, or install it (Mac: brew install rom-tools; Linux: mame-tools; Windows: MAME's x64 package)")
     if not shutil.which("ffmpeg"):
         out.append("ffmpeg not found: install ffmpeg with libx264 (ffmpeg.org, Homebrew, your package manager)")
     else:

@@ -121,7 +121,7 @@ CHD_SHA1 := 8abb5e6aa58ab49477ef89f507264d35454f99d3
 
 doctor:
 	@ok=1; \
-	for t in chdman ffmpeg; do command -v $$t >/dev/null || { echo "missing: $$t (brew install mame ffmpeg)"; ok=0; }; done; \
+	for t in chdman ffmpeg; do command -v $$t >/dev/null || { echo "missing: $$t (brew install rom-tools ffmpeg)"; ok=0; }; done; \
 	ffmpeg -hide_banner -encoders 2>/dev/null | grep -q libx264 || { echo "ffmpeg has no libx264 encoder"; ok=0; }; \
 	[ -x .venv/bin/python ] || { echo "no .venv: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt"; ok=0; }; \
 	[ -x .venv/bin/python ] && { .venv/bin/python -c "import numpy" 2>/dev/null || { echo "venv lacks numpy: .venv/bin/pip install -r requirements.txt"; ok=0; }; }; \

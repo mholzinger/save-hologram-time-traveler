@@ -15,7 +15,7 @@ You can't build the game unless you have all of these:
 | Ingredient | Why | Get it |
 |---|---|---|
 | `timetrv.zip` (program ROM `tt061891.bin`) and `timetrv.chd` (laserdisc) | the game itself | your own MAME set `timetrv`; never included here |
-| `chdman` | reads the laserdisc image | MAME's tools (`brew install mame`, the MAME Windows package, `mame-tools` on Linux) |
+| `chdman` | reads the laserdisc image | MAME's tools: `brew install rom-tools` (Mac), `mame-tools` (Linux), MAME's Windows x64 package (Windows) |
 | `ffmpeg` with libx264 | encodes the footage for the 3DS | ffmpeg.org, Homebrew, your Linux package manager |
 | `makerom` | only for the `.cia` | github.com/3DSGuy/Project_CTR releases |
 
